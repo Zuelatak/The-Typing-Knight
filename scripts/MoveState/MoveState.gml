@@ -13,6 +13,11 @@ if(xaxis == 0 && yaxis == 0)
 else
 {
 	length = spd;	
+	if(keyboard_check(vk_shift))
+	{	
+		length *= sprintSpd;
+	}
+	
 }
 show_debug_message(length);
 // Get the speed variables
