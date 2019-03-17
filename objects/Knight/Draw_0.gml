@@ -1,0 +1,1 @@
+InRange = ChatRange();

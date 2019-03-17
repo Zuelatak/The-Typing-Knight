@@ -2,8 +2,8 @@
 // Get Direction
 dir = point_direction(0, 0, xaxis, yaxis);
 
-show_debug_message("XAXIS = " + string(xaxis));
-show_debug_message("YAXIS = " + string(yaxis));
+//show_debug_message("XAXIS = " + string(xaxis));
+//show_debug_message("YAXIS = " + string(yaxis));
 
 // Get Length
 if(xaxis == 0 && yaxis == 0)
@@ -19,15 +19,15 @@ else
 	}
 	
 }
-show_debug_message(length);
+//show_debug_message(length);
 // Get the speed variables
 horspeed = lengthdir_x(length, dir);
 verspeed = lengthdir_y(length, dir);
 
 // Horizontal Collisions
-if(place_meeting(x + horspeed, y, obj_Wall))
+if(place_meeting(x + horspeed, y, Collisions))
 {
-	while(!place_meeting(x + sign(horspeed), y, obj_Wall))
+	while(!place_meeting(x + sign(horspeed), y, Collisions))
 	{
 		x += sign(horspeed);
 	}
@@ -36,9 +36,9 @@ if(place_meeting(x + horspeed, y, obj_Wall))
  
 x += horspeed;
 
-if(place_meeting(x, y + verspeed, obj_Wall))
+if(place_meeting(x, y + verspeed, Collisions))
 {
-	while(!place_meeting(x, y + sign(verspeed), obj_Wall))
+	while(!place_meeting(x, y + sign(verspeed), Collisions))
 	{
 		y += sign(verspeed);
 	}

@@ -199,6 +199,14 @@
             }
         },
         {
+            "Key": "aab18180-f7b0-477a-a5b7-7adc06218e2c",
+            "Value": {
+                "id": "7d866149-e9b8-4c83-83c1-d2776a48ff5f",
+                "resourcePath": "sprites\\InteractionButton\\InteractionButton.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "ab85e129-c99e-473c-afba-13fb7abad102",
             "Value": {
                 "id": "e8c875e9-33ea-4ca4-b67b-a71138d8c1b2",
@@ -283,14 +291,6 @@
             "Value": {
                 "id": "8c51a972-3b89-44b9-af6e-225395f88d70",
                 "resourcePath": "sprites\\spr_Namebox\\spr_Namebox.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
-            "Key": "d1511b43-3573-4adb-a5e9-c4bbf5e6dc3f",
-            "Value": {
-                "id": "6e5d3c9b-196f-4545-816d-1b37201da3e1",
-                "resourcePath": "sprites\\InteractionButton\\InteractionButton.yy",
                 "resourceType": "GMSprite"
             }
         },
