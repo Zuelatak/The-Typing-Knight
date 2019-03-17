@@ -350,6 +350,7 @@
                 "resourcePath": "objects\\Knight\\Knight.yy",
                 "resourceType": "GMObject"
             }
+<<<<<<< Updated upstream
         }
     ],
     "script_order": [
@@ -711,6 +712,8 @@
                 "resourcePath": "objects\\Knight\\Knight.yy",
                 "resourceType": "GMObject"
             }
+=======
+>>>>>>> Stashed changes
         }
     ],
     "script_order": [

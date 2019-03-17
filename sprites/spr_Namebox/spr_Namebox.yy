@@ -55,7 +55,11 @@
         }
     ],
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "origin": 9,
+=======
+    "origin": 0,
+>>>>>>> Stashed changes
 =======
     "origin": 0,
 >>>>>>> Stashed changes
@@ -70,8 +74,13 @@
     "type": 0,
     "width": 64,
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "xorig": 198,
     "yorig": 156
+=======
+    "xorig": 0,
+    "yorig": 0
+>>>>>>> Stashed changes
 =======
     "xorig": 0,
     "yorig": 0
