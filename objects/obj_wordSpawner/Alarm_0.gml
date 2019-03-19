@@ -5,4 +5,6 @@ with(word)
 {
 	word = "test";	
 }
+wordList[wordCount] = word;
+wordCount++;
 alarm[0] = 100;
