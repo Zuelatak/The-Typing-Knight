@@ -5,55 +5,55 @@ script_execute(state);
 
 
 //down direction
-if (keyboard_check(vk_down))
+if (max(keyboard_check(vk_down), keyboard_check(ord("S")), 0))
 	{
-		sprite_index = spr_frontWalk;
+		sprite_index = spr_playerFW;
 		image_speed = 2;
 	}
 //up direction
-if (keyboard_check(vk_up))
+else if (max(keyboard_check(vk_up), keyboard_check(ord("W")), 0))
 	{
-		sprite_index = spr_backWalk;
+		sprite_index = spr_playerBW;
 		image_speed = 2; 
 	}
 //left
-if (keyboard_check(vk_left))
+else if (max(keyboard_check(vk_left), keyboard_check(ord("A")), 0))
 	{
-		sprite_index = spr_sideWalkL;
+		sprite_index = spr_playerLW;
 		image_speed = 2;
 	}
 	
 //right
-if (keyboard_check(vk_right))
+else if (max(keyboard_check(vk_right), keyboard_check(ord("D")), 0))
 	{
-		sprite_index = spr_sideWalkR;
+		sprite_index = spr_playerRW;
 		image_speed = 2;
 	}		
 
 
 //stop animation
-if (keyboard_check_released(vk_down))
+if (max(keyboard_check_released(vk_down), keyboard_check_released(ord("S")), 0))
 {
-	sprite_index = spr_frontStand;
+	sprite_index = spr_playerFS;
 		
 }
 //up direction
-if (keyboard_check_released(vk_up))
+if (max(keyboard_check_released(vk_up), keyboard_check_released(ord("W")), 0))
 {
-	sprite_index = spr_backStand;
+	sprite_index = spr_playerBS;
 			 
 }
 //left
-if (keyboard_check_released(vk_left))
+if (max(keyboard_check_released(vk_left), keyboard_check_released(ord("A")), 0))
 {
-	sprite_index = spr_sideStandL;
+	sprite_index = spr_playerLS;
 			
 }
 	
 //right
-if (keyboard_check_released(vk_right))
+if (max(keyboard_check_released(vk_right), keyboard_check_released(ord("D")), 0))
 {
-	sprite_index = spr_sideStandR;
+	sprite_index = spr_playerRS;
 			
 }		
 

@@ -10,8 +10,8 @@
         "61f638a9-d3f3-41f7-bda7-09d18f83504a",
         "45257584-ba18-490a-95d8-9a6ae0f3b7a9",
         "84e39bba-9dfc-4cc7-be71-bb73934b89f2",
-        "b7dcc62f-b074-48b8-b77f-e9addfde3573",
-        "005791d7-dbeb-43d1-ba99-0a4666cf8998"
+        "005791d7-dbeb-43d1-ba99-0a4666cf8998",
+        "b7dcc62f-b074-48b8-b77f-e9addfde3573"
     ],
     "filterType": "GMSprite",
     "folderName": "playerCharacter",

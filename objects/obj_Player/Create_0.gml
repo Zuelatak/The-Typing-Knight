@@ -11,6 +11,6 @@ sprintSpd = 1.8;
 
 state = MoveState;
 
-sprite_index = spr_frontStand;
+sprite_index = spr_playerFS;
 
 

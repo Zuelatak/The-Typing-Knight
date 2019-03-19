@@ -2,7 +2,7 @@
     "id": "b7dcc62f-b074-48b8-b77f-e9addfde3573",
     "modelName": "GMSprite",
     "mvc": "1.12",
-    "name": "spr_sideStandR",
+    "name": "spr_playerRS",
     "For3D": false,
     "HTile": false,
     "VTile": false,

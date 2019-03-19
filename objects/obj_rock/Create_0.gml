@@ -1,2 +1,1 @@
 CreateCollision();
-InRange = false;
