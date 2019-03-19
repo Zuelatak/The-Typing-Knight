@@ -6,6 +6,11 @@ length = 0;
 dir = 0;
 sprintSpd = 1.8;
 
-show_debug_message(spd);
+
+//show_debug_message(spd);
 
 state = MoveState;
+
+sprite_index = spr_frontStand;
+
+

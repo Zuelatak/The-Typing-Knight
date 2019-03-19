@@ -1,5 +1,5 @@
 {
-    "id": "b4fe5517-ab53-4463-9410-efca77828e19",
+    "id": "51e62dbf-49a3-4e27-887e-5811a487c88f",
     "modelName": "GMScript",
     "mvc": "1.0",
     "name": "ChatRange",

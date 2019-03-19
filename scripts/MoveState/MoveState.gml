@@ -25,9 +25,9 @@ horspeed = lengthdir_x(length, dir);
 verspeed = lengthdir_y(length, dir);
 
 // Horizontal Collisions
-if(place_meeting(x + horspeed, y, Collisions))
+if(place_meeting(x + horspeed, y, obj_playerCollider))
 {
-	while(!place_meeting(x + sign(horspeed), y, Collisions))
+	while(!place_meeting(x + sign(horspeed), y, obj_playerCollider))
 	{
 		x += sign(horspeed);
 	}
@@ -36,13 +36,15 @@ if(place_meeting(x + horspeed, y, Collisions))
  
 x += horspeed;
 
-if(place_meeting(x, y + verspeed, Collisions))
+if(place_meeting(x, y + verspeed, obj_playerCollider))
 {
-	while(!place_meeting(x, y + sign(verspeed), Collisions))
+	while(!place_meeting(x, y + sign(verspeed), obj_playerCollider))
 	{
 		y += sign(verspeed);
 	}
 	verspeed = 0;
+	
+	
 }
  
 y += verspeed;
