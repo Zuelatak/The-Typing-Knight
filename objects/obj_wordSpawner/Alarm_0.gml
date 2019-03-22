@@ -9,6 +9,6 @@ with(word)
 {
 	word = randomWord;	
 }
-wordCount++;
 wordList[wordCount] = word;
+wordCount++;
 alarm[0] = 100;
