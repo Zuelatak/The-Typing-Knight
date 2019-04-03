@@ -303,6 +303,14 @@
             }
         },
         {
+            "Key": "5e23a42a-b226-4aaf-a7f0-bf025dd1c769",
+            "Value": {
+                "id": "1cd6a652-47fa-4091-a2b4-c4e0381061ca",
+                "resourcePath": "views\\5e23a42a-b226-4aaf-a7f0-bf025dd1c769.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "5eae08d1-d1f0-42c7-b702-b7dfbe4757b2",
             "Value": {
                 "id": "be15217d-d2c9-4e52-85a3-59859b156ec2",
@@ -460,6 +468,14 @@
                 "id": "21630b7f-4821-4c1a-adbf-8b349f24ade0",
                 "resourcePath": "views\\9db0ad75-8bcd-45f1-afa4-265f2ac21aaa.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "9e3f1d19-7c34-474a-8cf2-cb8b09569dae",
+            "Value": {
+                "id": "1014eb1d-daa0-499e-b412-85b4d30c9017",
+                "resourcePath": "objects\\obj_battleRoom\\obj_battleRoom.yy",
+                "resourceType": "GMObject"
             }
         },
         {

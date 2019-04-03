@@ -1,6 +1,6 @@
 /// @description Insert description here
 // You can write your code in this editor
-range = random_range(-190,190);
+range = random_range(-wordSpawnRange,wordSpawnRange);
 //range = 190;
 dictionary = ["This", "is", "a", "test", "sentence"];
 var randomWord = dictionary[random(array_length_1d(dictionary))];
@@ -11,4 +11,4 @@ with(word)
 }
 wordList[wordCount] = word;
 wordCount++;
-alarm[0] = 100;
+alarm[0] = wordSpawnRate;
