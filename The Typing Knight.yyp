@@ -263,6 +263,14 @@
             }
         },
         {
+            "Key": "3857924a-9ca6-426e-b0a5-4c7fadc4900c",
+            "Value": {
+                "id": "74597fc7-427c-4126-bfcc-fc00d299c1fa",
+                "resourcePath": "sprites\\spr_knightPortrait\\spr_knightPortrait.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "38ac9041-7022-4a62-8ecd-8ead4e33d227",
             "Value": {
                 "id": "2c75a7df-d172-4264-bb72-1b365bf0a32f",
@@ -274,7 +282,7 @@
             "Key": "3af9b653-877b-49be-9fe5-5c289cba6caa",
             "Value": {
                 "id": "de8a94f0-80b5-417d-a554-787542418e66",
-                "resourcePath": "sprites\\spr_knightPortrait\\spr_knightPortrait.yy",
+                "resourcePath": "sprites\\spr_priestPortrait\\spr_priestPortrait.yy",
                 "resourceType": "GMSprite"
             }
         },
