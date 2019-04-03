@@ -2,7 +2,7 @@
 // You can write your code in this editor
 if(wordPointer < wordCount)
 {
-	if(wordList[wordPointer].x < 100)
+	if(wordList[wordPointer].x < -20)
 	{
 		wordList[wordPointer].word = "-";
 		wordPointer ++;
