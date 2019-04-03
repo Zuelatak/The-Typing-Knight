@@ -13,4 +13,6 @@ state = MoveState;
 
 sprite_index = spr_playerFS;
 
+global.playerHealth = 100;
+
 
