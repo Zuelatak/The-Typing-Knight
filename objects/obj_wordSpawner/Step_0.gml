@@ -2,18 +2,28 @@
 // You can write your code in this editor
 if(wordPointer < wordCount)
 {
+	if(wordList[wordPointer].x < 100)
+	{
+		wordList[wordPointer].word = "-";
+		wordPointer ++;
+		global.playerHealth = global.playerHealth - global.enemyDamage*2 + global.playerArmor;
+	}
 	if(keyboard_check_pressed(ord(string_upper(string_char_at(wordList[wordPointer].word, 0)))))
 	{
 		if(string_length(wordList[wordPointer].word) = 1)
 		{
-			wordList[wordPointer].word = "";
-			//array_copy(wordList, 0, wordList, 1, wordCount);
+			wordList[wordPointer].word = "-";
 			wordPointer ++;
-			//wordCount--;
+			global.enemyHealth = global.enemyHealth - global.playerDamage + global.enemyArmor;
 		}
 		else
 		{
 			wordList[wordPointer].word = string_copy(wordList[wordPointer].word, 2, string_length(wordList[wordPointer].word));
 		}
 	}
+	else if keyboard_check_pressed(vk_anykey)
+	{
+		global.playerHealth = global.playerHealth - global.enemyDamage + global.playerArmor;
+	}
 }
+

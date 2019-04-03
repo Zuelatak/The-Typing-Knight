@@ -14,5 +14,6 @@ state = MoveState;
 sprite_index = spr_playerFS;
 
 global.playerHealth = 100;
-
+global.playerArmor = 0;
+global.playerDamage = 5;
 
