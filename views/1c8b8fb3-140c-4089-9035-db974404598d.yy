@@ -9,7 +9,8 @@
         "d7a4fba5-8fb1-4323-9787-ee5d4e33396c",
         "758ab5ac-7919-4893-977f-8be7446e5a6c",
         "73e33f11-9034-4fa0-834a-7484a9cd8c48",
-        "0ea6ff6c-7cc3-4009-b713-68dc5efe0bf9"
+        "0ea6ff6c-7cc3-4009-b713-68dc5efe0bf9",
+        "b6badd38-a9da-4440-9620-b18459a61e04"
     ],
     "filterType": "GMSprite",
     "folderName": "NPCs",
