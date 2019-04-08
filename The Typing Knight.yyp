@@ -759,6 +759,14 @@
             }
         },
         {
+            "Key": "c7f6727e-9f07-4b17-8d17-6f9fea47d795",
+            "Value": {
+                "id": "0ac7421c-158b-44da-b37c-87c493097ec3",
+                "resourcePath": "sprites\\spr_healthBar\\spr_healthBar.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "c876592e-be26-4ac9-98ae-e89e62b256e5",
             "Value": {
                 "id": "2ef421cb-4359-4340-a79d-9d4adeb6dd50",
