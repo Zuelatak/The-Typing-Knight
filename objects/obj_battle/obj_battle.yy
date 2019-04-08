@@ -74,7 +74,7 @@
             "resourceFilter": 1023,
             "value": "1",
             "varName": "wordSpeed",
-            "varType": 1
+            "varType": 0
         },
         {
             "id": "bfc03f02-9aff-445a-a389-f6eb7eaf9532",
@@ -88,7 +88,7 @@
             "resourceFilter": 1023,
             "value": "1",
             "varName": "wordSpawnRate",
-            "varType": 1
+            "varType": 0
         },
         {
             "id": "39cd7cad-06e1-4db5-a42a-c52c65a8e1b8",
@@ -102,7 +102,7 @@
             "resourceFilter": 1023,
             "value": "0",
             "varName": "wordSpawnRange",
-            "varType": 1
+            "varType": 0
         },
         {
             "id": "7838f03e-d7f2-4f90-985f-3623eafa613a",
@@ -116,7 +116,7 @@
             "resourceFilter": 1023,
             "value": "200",
             "varName": "wordSpawnerYAxis",
-            "varType": 1
+            "varType": 0
         },
         {
             "id": "3262ac43-5c77-44a2-ba0c-7eef554b3386",
@@ -130,7 +130,7 @@
             "resourceFilter": 1023,
             "value": "100",
             "varName": "characterDistance",
-            "varType": 1
+            "varType": 0
         },
         {
             "id": "70dc0c15-b434-467c-ae9d-4ed2bb29d3d4",
