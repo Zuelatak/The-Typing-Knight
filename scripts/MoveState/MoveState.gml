@@ -25,26 +25,26 @@ horspeed = lengthdir_x(length, dir);
 verspeed = lengthdir_y(length, dir);
 
 // Horizontal Collisions
-if(place_meeting(x + horspeed, y, obj_playerCollider))
+if(place_meeting(global.playerLocationX + horspeed, global.playerLocationY, obj_playerCollider))
 {
-	while(!place_meeting(x + sign(horspeed), y, obj_playerCollider))
+	while(!place_meeting(global.playerLocationX + sign(horspeed), global.playerLocationY, obj_playerCollider))
 	{
-		x += sign(horspeed);
+		global.playerLocationX += sign(horspeed);
 	}
 	horspeed = 0;
 }
  
-x += horspeed;
+global.playerLocationX += horspeed;
 
-if(place_meeting(x, y + verspeed, obj_playerCollider))
+if(place_meeting(global.playerLocationX, global.playerLocationY + verspeed, obj_playerCollider))
 {
-	while(!place_meeting(x, y + sign(verspeed), obj_playerCollider))
+	while(!place_meeting(global.playerLocationX, global.playerLocationY + sign(verspeed), obj_playerCollider))
 	{
-		y += sign(verspeed);
+		global.playerLocationY += sign(verspeed);
 	}
 	verspeed = 0;
 	
 	
 }
  
-y += verspeed;
+global.playerLocationY += verspeed;

@@ -1,60 +1,58 @@
 /// @description Every Step
 GetInput();
 depth = -y;
-script_execute(state); 
+x = global.playerLocationX;
+y = global.playerLocationY;
+sprite_index = global.playerDirection;
+MoveState()
 
 
-//down direction
-if (max(keyboard_check(vk_down), keyboard_check(ord("S")), 0))
-	{
-		sprite_index = spr_playerFW;
-		image_speed = 2;
-	}
-//up direction
-else if (max(keyboard_check(vk_up), keyboard_check(ord("W")), 0))
-	{
-		sprite_index = spr_playerBW;
-		image_speed = 2; 
-	}
 //left
-else if (max(keyboard_check(vk_left), keyboard_check(ord("A")), 0))
-	{
-		sprite_index = spr_playerLW;
-		image_speed = 2;
-	}
-	
+if (dir == 180 && length != 0)
+{
+	global.playerDirection = spr_playerLW;
+	image_speed = length;
+}
 //right
-else if (max(keyboard_check(vk_right), keyboard_check(ord("D")), 0))
-	{
-		sprite_index = spr_playerRW;
-		image_speed = 2;
-	}		
+else if (dir == 0 && length != 0)
+{
+	global.playerDirection = spr_playerRW;
+	image_speed = length;
+}		
+//down direction
+else if (dir == 225 || dir == 270 || dir == 315 && length != 0)
+{
+	global.playerDirection = spr_playerFW;
+	image_speed = length;
+}
+//up direction
+else if (dir == 45 || dir == 90 || dir == 135 && length != 0)
+{
+	global.playerDirection = spr_playerBW;
+	image_speed = length; 
+}
 
 
 //stop animation
-if (max(keyboard_check_released(vk_down), keyboard_check_released(ord("S")), 0))
+if (global.playerDirection == spr_playerFW && length == 0)
 {
-	sprite_index = spr_playerFS;
-		
+	global.playerDirection = spr_playerFS;
 }
 //up direction
-if (max(keyboard_check_released(vk_up), keyboard_check_released(ord("W")), 0))
+if (global.playerDirection == spr_playerBW && length == 0)
 {
-	sprite_index = spr_playerBS;
-			 
+	global.playerDirection = spr_playerBS;	 
 }
 //left
-if (max(keyboard_check_released(vk_left), keyboard_check_released(ord("A")), 0))
+if (global.playerDirection == spr_playerLW && length == 0)
 {
-	sprite_index = spr_playerLS;
-			
+	global.playerDirection = spr_playerLS;	
 }
 	
 //right
-if (max(keyboard_check_released(vk_right), keyboard_check_released(ord("D")), 0))
+if (global.playerDirection == spr_playerRW && length == 0)
 {
-	sprite_index = spr_playerRS;
-			
+	global.playerDirection = spr_playerRS;
 }		
 
 		
