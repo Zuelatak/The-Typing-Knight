@@ -105,34 +105,6 @@
             "varType": 1
         },
         {
-            "id": "0e769975-9984-4276-b29a-2781a381374b",
-            "modelName": "GMObjectProperty",
-            "mvc": "1.0",
-            "listItems": null,
-            "multiselect": false,
-            "rangeEnabled": false,
-            "rangeMax": 10,
-            "rangeMin": 0,
-            "resourceFilter": 1023,
-            "value": "0",
-            "varName": "enemyArmor",
-            "varType": 1
-        },
-        {
-            "id": "5b03e5ab-713a-462a-a6e4-4f647a35442c",
-            "modelName": "GMObjectProperty",
-            "mvc": "1.0",
-            "listItems": null,
-            "multiselect": false,
-            "rangeEnabled": false,
-            "rangeMax": 10,
-            "rangeMin": 0,
-            "resourceFilter": 1023,
-            "value": "5",
-            "varName": "enemyDamage",
-            "varType": 1
-        },
-        {
             "id": "7838f03e-d7f2-4f90-985f-3623eafa613a",
             "modelName": "GMObjectProperty",
             "mvc": "1.0",

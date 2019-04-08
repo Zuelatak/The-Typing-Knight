@@ -14,7 +14,12 @@ if(wordPointer < wordCount)
 		{
 			wordList[wordPointer].word = "-";
 			wordPointer ++;
+			show_debug_message("");
+			show_debug_message(global.enemyHealth);
+			show_debug_message(global.playerDamage);
+			show_debug_message(global.enemyArmor);
 			global.enemyHealth = global.enemyHealth - global.playerDamage + global.enemyArmor;
+			show_debug_message(global.enemyHealth);
 		}
 		else
 		{

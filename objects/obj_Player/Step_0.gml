@@ -6,7 +6,6 @@ y = global.playerLocationY;
 sprite_index = global.playerDirection;
 MoveState()
 
-
 //left
 if (dir == 180 && length != 0)
 {

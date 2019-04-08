@@ -4,6 +4,8 @@ if(InRange && max(gamepad_button_check(0, gp_face1), keyboard_check_pressed(ord(
 {
 	global.prevRoomLocation = global.roomLocation;
 	global.roomLocation = rm_battle;
-	global.battleSprite = spr_knightFW;
+	global.enemySprite = spr_knightFW;
+	global.enemyArmor = 0;
+	global.enemyDamage = 5;
     room_goto(rm_battle);
 } 

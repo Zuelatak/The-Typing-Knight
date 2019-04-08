@@ -22,5 +22,6 @@ if(global.playerHealth <= 0)
 }
 if(global.enemyHealth <= 0)
 {
+	global.roomLocation = global.prevRoomLocation;
 	room_goto(global.prevRoomLocation);
 }
