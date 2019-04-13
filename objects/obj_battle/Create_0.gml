@@ -1,5 +1,5 @@
-fade = true;
-//while(fade) {show_debug_message("Fading")}
+fade = false;
+fadeDone = false;
 alphaRange = 1;
 
 var Spawner = instance_create_depth(room_width, wordSpawnerYAxis, wordSpawnerYAxis, obj_wordSpawner);

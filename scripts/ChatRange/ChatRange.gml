@@ -1,10 +1,11 @@
- var inst = collision_rectangle(x-(sprite_width*2), y-(sprite_height*2), x+(sprite_width*2), x+(sprite_height*2), obj_player, true, true);
-if(inst != noone) // Change the  collision to be distance_to_object
+if(distance_to_object(obj_player) < 50 && !argument[0])
 {
-    draw_sprite(spr_interaction, 0, x, y-((3*sprite_height)/4)); //TODO: Draw in front of everything    
-    return true;
+	button = instance_create_depth(x, y-((3*sprite_height)/4), -y, obj_interactionButton);
+	return true;   
 }
-else
-{
-    return false;    
+else if(distance_to_object(obj_player) > 50 && argument[0])
+{  
+	instance_destroy(button);
+	return false;
 }
+return argument[0];

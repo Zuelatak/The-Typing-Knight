@@ -5,4 +5,3 @@ InRange = false;
 fade = false;
 fadeDone = false;
 alphaRange = 0;
-buttonCreated = false;

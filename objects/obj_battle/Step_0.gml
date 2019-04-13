@@ -20,7 +20,12 @@ if(global.playerHealth <= 0)
 {
 	room_goto(rm_title);	
 }
-if(global.enemyHealth <= 0)
+if(global.enemyHealth <= 0 && fade == false)
+{
+	alphaRange = 0;
+	fade = true;
+}
+if(fadeDone)
 {
 	global.roomLocation = global.prevRoomLocation;
 	room_goto(global.prevRoomLocation);

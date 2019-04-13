@@ -31,7 +31,6 @@ file_text_readln(file);
 while(true)
 {
 	var temp = file_text_read_string(file);
-	show_debug_message(temp);
 	file_text_readln(file);
 	if(temp == "-WordList-")
 	{
