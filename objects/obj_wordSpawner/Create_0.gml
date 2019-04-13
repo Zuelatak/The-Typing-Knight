@@ -4,7 +4,4 @@ wordSpeed = 0;
 wordSpawnRate = 0;
 wordSpawnRange = 0;
 
-
 alarm[0] = 1;
-wordCount = 0;
-wordPointer = 0;

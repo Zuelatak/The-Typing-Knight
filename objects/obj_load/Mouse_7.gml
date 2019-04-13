@@ -3,5 +3,6 @@
 if(position_meeting(mouse_x, mouse_y, id))
 {
 	sprite_index = spr_load;
-	Load();
+	Globals();
+	fade = true;
 }

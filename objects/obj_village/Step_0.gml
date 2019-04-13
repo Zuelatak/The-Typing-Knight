@@ -14,5 +14,5 @@ if(keyboard_check(vk_control))
 }
 if(keyboard_check(vk_escape))
 {
-		room_goto(rm_titleScreen);
+		room_goto(rm_title);
 }

@@ -3,5 +3,5 @@
 if(position_meeting(mouse_x, mouse_y, id))
 {
 	sprite_index = spr_back;	
-	room_goto(rm_titleScreen);
+	room_goto(rm_title);
 }

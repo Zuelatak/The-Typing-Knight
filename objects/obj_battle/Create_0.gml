@@ -1,4 +1,6 @@
-global.enemyHealth = 100;
+fade = true;
+//while(fade) {show_debug_message("Fading")}
+alphaRange = 1;
 
 var Spawner = instance_create_depth(room_width, wordSpawnerYAxis, wordSpawnerYAxis, obj_wordSpawner);
 

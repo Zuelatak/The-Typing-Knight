@@ -3,13 +3,13 @@
 range = random_range(-wordSpawnRange,wordSpawnRange);
 //range = 190;
 dictionary = ["This", "is", "a", "test", "sentence", "here", "are", "some", "more", "words", 
-"have", "fun", "supercalifragilisticexpialidocious", "hello"];
+"have", "fun", "hello"];
 var randomWord = string_upper(dictionary[random(array_length_1d(dictionary))]);
 word = instance_create_depth(x, y+range, -y-range, obj_word)
 with(word)
 {
 	word = randomWord;	
 }
-wordList[wordCount] = word;
-wordCount++;
+global.wordList[global.wordCount] = word;
+global.wordCount++;
 alarm[0] = wordSpawnRate;
