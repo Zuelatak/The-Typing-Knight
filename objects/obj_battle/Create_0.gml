@@ -1,6 +1,7 @@
 fade = false;
 fadeDone = false;
 alphaRange = 1;
+loaded = false;
 
 var Spawner = instance_create_depth(room_width, wordSpawnerYAxis, wordSpawnerYAxis, obj_wordSpawner);
 

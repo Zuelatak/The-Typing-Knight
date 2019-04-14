@@ -2,5 +2,5 @@
 // You can write your code in this editor
 if(fadeDone)
 {
-	Load();
+	room_goto(global.roomLocation);
 }

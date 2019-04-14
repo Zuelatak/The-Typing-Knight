@@ -8,6 +8,12 @@ if(keyboard_check(vk_control))
 	}
 	else if(keyboard_check_pressed(ord("L")))
 	{
+		if(file_text_open_read("\save.txt"))
+		{
+			alphaRange = 0;
+			fade = true;
+			loaded = true;
+		}
 		Load();
 	}
 }
@@ -27,6 +33,14 @@ if(global.enemyHealth <= 0 && fade == false)
 }
 if(fadeDone)
 {
-	global.roomLocation = global.prevRoomLocation;
-	room_goto(global.prevRoomLocation);
+	if(loaded)
+	{
+		Load();	
+		room_goto(global.roomLocation);
+	}
+	else
+	{
+		global.roomLocation = global.prevRoomLocation;
+		room_goto(global.prevRoomLocation);
+	}
 }
