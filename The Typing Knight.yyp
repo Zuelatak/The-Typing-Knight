@@ -55,6 +55,14 @@
             }
         },
         {
+            "Key": "030d1b7c-01be-4238-aded-c5fc0c1a16ca",
+            "Value": {
+                "id": "dfa4ce64-1dbf-4adc-aff6-5f79769df3c6",
+                "resourcePath": "sprites\\spr_bed\\spr_bed.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "0370b5be-1fe4-4c03-98ae-41b4998462f8",
             "Value": {
                 "id": "a8a4d66f-8bc9-4daa-954a-d5a5e244a5b5",
@@ -90,7 +98,7 @@
             "Key": "0836ed73-e1a8-4892-9370-5ae4a2d47493",
             "Value": {
                 "id": "0d456925-41f2-4350-b0e0-b2178cbf93a4",
-                "resourcePath": "sprites\\sprite55\\sprite55.yy",
+                "resourcePath": "sprites\\spr_lich\\spr_lich.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -210,7 +218,7 @@
             "Key": "20cd7292-d95f-4832-8d7f-48f902b7c6ff",
             "Value": {
                 "id": "e9313e85-dba7-43a0-bf89-f0b85781f948",
-                "resourcePath": "sprites\\sprite57\\sprite57.yy",
+                "resourcePath": "sprites\\spr_wolf\\spr_wolf.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -399,6 +407,14 @@
             }
         },
         {
+            "Key": "4d180572-467d-4029-a637-2212b51605f0",
+            "Value": {
+                "id": "f70f6647-40a0-4d72-9d2e-c54e7ff05319",
+                "resourcePath": "sprites\\spr_wardrobe\\spr_wardrobe.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "507d7855-fea7-4947-a28a-d7113032838b",
             "Value": {
                 "id": "f5afc4c0-c089-4514-a33d-d7856ad9c927",
@@ -551,6 +567,14 @@
             }
         },
         {
+            "Key": "6831d3ca-1fb5-4bfe-81bb-70320ea763cc",
+            "Value": {
+                "id": "5e59fe6a-596d-4fd7-8db3-8964960c3dc2",
+                "resourcePath": "sprites\\sprite68\\sprite68.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "68b7265b-8b0b-4c73-954f-91e0d890c26c",
             "Value": {
                 "id": "47692385-e88d-4d16-9863-01a29016061d",
@@ -700,6 +724,14 @@
                 "id": "df6c472d-13ec-4ebd-81ea-6da68e2f9a34",
                 "resourcePath": "sprites\\spr_gGrass1\\spr_gGrass1.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "8a138740-a2c1-4a41-a886-c446a40c41ca",
+            "Value": {
+                "id": "5b4f4238-daa2-4aff-8212-9b3f06d364da",
+                "resourcePath": "tilesets\\tileset5\\tileset5.yy",
+                "resourceType": "GMTileSet"
             }
         },
         {
@@ -883,6 +915,14 @@
             "Value": {
                 "id": "df73c140-bf1c-43e1-8569-50ea53dbaa0e",
                 "resourcePath": "sprites\\spr_trigger\\spr_trigger.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "b5d2b4d3-bbad-450d-a720-c7a155655ba0",
+            "Value": {
+                "id": "4e1cffde-43c1-41ed-9b6c-c14c86b66ba7",
+                "resourcePath": "sprites\\spr_slime\\spr_slime.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -1199,14 +1239,6 @@
             }
         },
         {
-            "Key": "ed436f00-b5f1-4b19-82a5-042742edc783",
-            "Value": {
-                "id": "25d3c948-b381-4db1-939b-8d6ee6e1f6d8",
-                "resourcePath": "sprites\\sprite56\\sprite56.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "edfb375c-c09b-40ee-a2df-0e6d568d9cd2",
             "Value": {
                 "id": "9b9f78c7-8691-4f65-bd68-a45e9961babe",
@@ -1250,7 +1282,7 @@
             "Key": "f56de7bd-9350-4454-9ead-8d6216adea50",
             "Value": {
                 "id": "5c2dc869-acca-41c6-a4b2-9e89ccce07fd",
-                "resourcePath": "sprites\\spr_merchantShop\\spr_merchantShop.yy",
+                "resourcePath": "sprites\\spr_\\spr_.yy",
                 "resourceType": "GMSprite"
             }
         },
