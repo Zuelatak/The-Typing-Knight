@@ -4,6 +4,8 @@ depth = -y;
 x = global.playerLocationX;
 y = global.playerLocationY;
 sprite_index = global.playerDirection;
+x=clamp(x, 0, room_width);
+y=clamp(y, 0, room_height);
 MoveState()
 
 //left

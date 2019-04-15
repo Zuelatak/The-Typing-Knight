@@ -10,6 +10,7 @@ with(word)
 {
 	word = randomWord;	
 }
-global.wordList[global.wordCount] = word;
-global.wordCount++;
+wordList[wordCount] = word;
+global.words[wordCount] = word;
+wordCount++;
 alarm[0] = wordSpawnRate;

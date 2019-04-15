@@ -24,6 +24,7 @@ if(keyboard_check(vk_escape))
 
 if(global.playerHealth <= 0)
 {
+	global.words = 0;
 	room_goto(rm_title);	
 }
 if(global.enemyHealth <= 0 && fade == false)
@@ -33,6 +34,7 @@ if(global.enemyHealth <= 0 && fade == false)
 }
 if(fadeDone)
 {
+	global.words = 0;
 	if(loaded)
 	{
 		Load();	
