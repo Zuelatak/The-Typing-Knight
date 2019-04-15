@@ -383,6 +383,14 @@
             }
         },
         {
+            "Key": "4546600c-6e63-43a9-ba8a-97201123722d",
+            "Value": {
+                "id": "26959825-0597-4d00-bfc1-130f16f3c68d",
+                "resourcePath": "sounds\\sound_slash\\sound_slash.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "4947f36f-b60f-4669-854a-18cb35970b75",
             "Value": {
                 "id": "4b59ba12-ffef-467a-a332-6ff948c3ed18",
@@ -524,6 +532,14 @@
                 "id": "76425d86-44b6-4e15-9ef3-dfad1d05dfdd",
                 "resourcePath": "sprites\\spr_playerBS\\spr_playerBS.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "645845d6-4755-4cff-8da6-f90ca4c7b933",
+            "Value": {
+                "id": "4069c10d-2e32-47db-8a2e-22eb37bad461",
+                "resourcePath": "sounds\\music_travel\\music_travel.yy",
+                "resourceType": "GMSound"
             }
         },
         {
@@ -871,6 +887,14 @@
             }
         },
         {
+            "Key": "b4c60540-5c73-4cdd-99b3-f87ade9ce511",
+            "Value": {
+                "id": "d4b0b8b1-f1f6-42ad-8330-f7f289ffe067",
+                "resourcePath": "sounds\\sound_button\\sound_button.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "b516a62e-04c2-4b95-8738-09d280bf4b65",
             "Value": {
                 "id": "156d68b0-f983-41f0-a131-3ac6392c991b",
@@ -932,6 +956,14 @@
                 "id": "32025885-0a22-496f-9c41-b6474131a18d",
                 "resourcePath": "sprites\\spr_load\\spr_load.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "badfb23c-a22b-44c4-9567-acd2e12dcbcc",
+            "Value": {
+                "id": "d43801b9-540a-42a2-909d-6b16f52e363d",
+                "resourcePath": "sounds\\music_travel2\\music_travel2.yy",
+                "resourceType": "GMSound"
             }
         },
         {
@@ -1300,6 +1332,14 @@
                 "id": "3af4fe12-eb74-40c6-a490-4c65f3e0a05e",
                 "resourcePath": "sprites\\spr_settingsPressed\\spr_settingsPressed.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "fe88efed-aac0-44dd-948b-65b8220ef07d",
+            "Value": {
+                "id": "f1ea4482-ce78-4207-bef8-8d38692100f0",
+                "resourcePath": "sounds\\music_battle\\music_battle.yy",
+                "resourceType": "GMSound"
             }
         }
     ],
