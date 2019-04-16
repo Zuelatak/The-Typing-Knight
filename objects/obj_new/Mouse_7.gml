@@ -5,4 +5,5 @@ if(position_meeting(mouse_x, mouse_y, id))
 	sprite_index = spr_new;	
 	Globals();
 	fade = true;
+	audio_play_sound(sound_button, 10, false);
 }

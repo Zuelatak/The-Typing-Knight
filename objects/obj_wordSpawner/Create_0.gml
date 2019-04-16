@@ -5,6 +5,8 @@ wordSpawnRate = 0;
 wordSpawnRange = 0;
 wordCount = 0;
 wordPointer = 0;
+global.wordList = 0;
+global.wordPointer = 0;
 
 alarm[0] = 1;
 
@@ -17,7 +19,7 @@ for(i = 0; i < array_length_1d(global.words); i+=3)
 	{
 		word = wordString;
 	}
-	wordList[wordCount] = wordObj;
+	global.wordList[wordCount] = wordObj;
 	wordCount++;
 }
 global.words = 0;

@@ -26,13 +26,13 @@ file_text_write_string(file, global.enemyHealth);
 file_text_writeln(file);
 file_text_write_string(file, global.enemySprite);
 file_text_writeln(file);
-for(i= 0; i < array_length_1d(global.words); i++)
+for(i= global.wordPointer; i < array_length_1d(global.wordList); i++)
 {
-	file_text_write_string(file, global.words[i].word);
+	file_text_write_string(file, global.wordList[i].word);
 	file_text_writeln(file);
-	file_text_write_string(file, global.words[i].x);
+	file_text_write_string(file, global.wordList[i].x);
 	file_text_writeln(file);
-	file_text_write_string(file, global.words[i].y);
+	file_text_write_string(file, global.wordList[i].y);
 	file_text_writeln(file);
 }
 file_text_write_string(file, "-WordList-");

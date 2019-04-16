@@ -3,5 +3,6 @@
 if(position_meeting(mouse_x, mouse_y, id))
 {
 	sprite_index = spr_settings;
+	audio_play_sound(sound_button, 10, false);
 	room_goto(rm_settings);
 }

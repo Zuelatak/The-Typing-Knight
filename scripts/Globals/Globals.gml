@@ -14,6 +14,8 @@ global.enemyArmor = 0;
 global.enemyHealth = 100;
 global.enemySprite = spr_knightFS;
 global.words = 0;
+global.wordList = 0;
+global.wordPointer = 0;
 
 // file_text_open_read until you get a -1 and then save that as the next game file (For multiple save files)
 // Check out file_exists ^
