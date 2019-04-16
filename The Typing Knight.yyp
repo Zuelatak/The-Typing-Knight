@@ -191,14 +191,6 @@
             }
         },
         {
-            "Key": "1a189865-5cb2-42fe-9ff9-852922534bc1",
-            "Value": {
-                "id": "1166aece-8325-478f-bc17-ec968021eef3",
-                "resourcePath": "objects\\wolf\\wolf.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
             "Key": "1a318fbd-6434-4bec-b830-b432ae26223f",
             "Value": {
                 "id": "d91ace34-de27-42db-b715-b9f89a2b1563",
@@ -212,6 +204,14 @@
                 "id": "d67d06fc-3d11-4f91-89f4-179348612427",
                 "resourcePath": "views\\1c8b8fb3-140c-4089-9035-db974404598d.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "1d547fa2-fa7c-466b-9855-c7bfafbbce32",
+            "Value": {
+                "id": "06ffc4ef-ea1b-4fd0-8891-31d5dd212478",
+                "resourcePath": "rooms\\rm_test\\rm_test.yy",
+                "resourceType": "GMRoom"
             }
         },
         {
