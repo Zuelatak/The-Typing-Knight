@@ -26,6 +26,10 @@ file_text_write_string(file, global.enemyHealth);
 file_text_writeln(file);
 file_text_write_string(file, global.enemySprite);
 file_text_writeln(file);
+file_text_write_string(file, global.overallDifficulty);
+file_text_writeln(file);
+file_text_write_string(file, global.battleDifficulty);
+file_text_writeln(file);
 for(i= global.wordPointer; i < array_length_1d(global.wordList); i++)
 {
 	file_text_write_string(file, global.wordList[i].word);

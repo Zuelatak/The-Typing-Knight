@@ -14,7 +14,6 @@ if(keyboard_check(vk_control))
 			fade = true;
 			loaded = true;
 		}
-		Load();
 	}
 }
 if(keyboard_check(vk_escape))
@@ -42,6 +41,7 @@ if(fadeDone)
 	}
 	else
 	{
+		global.enemyHealth = 100;
 		global.roomLocation = global.prevRoomLocation;
 		room_goto(global.prevRoomLocation);
 	}

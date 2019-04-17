@@ -13,5 +13,6 @@ if(fadeDone)
 	global.enemySprite = spr_knightFS;
 	global.enemyArmor = 0;
 	global.enemyDamage = 5;
+	global.battleDifficulty = global.overallDifficulty;
     room_goto(rm_battle);
 }

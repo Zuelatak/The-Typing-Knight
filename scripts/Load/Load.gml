@@ -28,6 +28,10 @@ if(file != -1)
 	file_text_readln(file);
 	global.enemySprite = real(file_text_read_string(file));
 	file_text_readln(file);
+	global.overallDifficulty = real(file_text_read_string(file));
+	file_text_readln(file);
+	global.battleDifficulty = real(file_text_read_string(file));
+	file_text_readln(file);
 	i = 0;
 	while(true)
 	{
