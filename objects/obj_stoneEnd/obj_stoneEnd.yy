@@ -4,7 +4,16 @@
     "mvc": "1.0",
     "name": "obj_stoneEnd",
     "eventList": [
-        
+        {
+            "id": "84b6ef35-2423-45c3-8db5-ce15fd25ca84",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 0,
+            "m_owner": "47453817-9653-4778-b63d-e452a7f779b7"
+        }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,

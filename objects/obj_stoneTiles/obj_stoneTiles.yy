@@ -4,7 +4,16 @@
     "mvc": "1.0",
     "name": "obj_stoneTiles",
     "eventList": [
-        
+        {
+            "id": "8dd87ef2-55cb-46ef-8255-af6f0849ebd1",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 0,
+            "m_owner": "fce138b0-53bf-43e6-b00d-61026c6091a7"
+        }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
