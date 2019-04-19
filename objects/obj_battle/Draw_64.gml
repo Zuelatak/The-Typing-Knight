@@ -5,7 +5,8 @@
 
 
 
-
+draw_set_halign(fa_center);
+draw_set_valign(fa_center);
 draw_text(window_get_width()/2 - characterDistance, window_get_height() - characterPlacement - 30, "HP: " + string(global.playerHealth) + "/100");
 draw_text(window_get_width()/2 + characterDistance, window_get_height() - characterPlacement - 30, "HP: " + string(global.enemyHealth) + "/100");
 
@@ -36,4 +37,15 @@ if(alphaRange > 1.2)
 if(alphaRange > 1.9)
 {
 	gameOver = true;	
+}
+if(countdown && alphaRange <= 0)
+{
+	draw_text_transformed(window_get_width()/2, window_get_height()/2, string(counter), 10, 10, 0);
+	draw_set_halign(fa_center);
+	draw_set_valign(fa_center);
+	if(doOnce)
+	{
+		alarm[0] = room_speed;
+		doOnce = false;
+	}
 }

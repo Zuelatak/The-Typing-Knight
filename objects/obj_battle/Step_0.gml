@@ -56,3 +56,8 @@ else if(gameOver)
 	global.words = 0;
 	room_goto(rm_title);	
 }
+if(counter == 0 && countdown)
+{
+	countdown = false;
+	global.freeze = false;
+}
