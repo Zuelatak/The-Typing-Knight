@@ -12,12 +12,12 @@ global.playerDirection = spr_playerFS;
 global.enemyDamage = 5;
 global.enemyArmor = 0;
 global.enemyHealth = 100;
-global.enemyObject = obj_battleKnight;
+global.enemyBattleObject = obj_battleKnight;
 global.enemyObject = obj_knight;
 global.words = 0;
 global.wordList = 0;
 global.wordPointer = 0;
-global.overallDifficulty = 4;
+global.overallDifficulty = 2;
 global.battleDifficulty = 0;
 global.victory = false;
 

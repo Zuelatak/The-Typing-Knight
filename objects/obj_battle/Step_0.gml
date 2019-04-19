@@ -10,6 +10,7 @@ if(keyboard_check(vk_control))
 	{
 		if(file_text_open_read("\save.txt"))
 		{
+			global.freeze = true;
 			alphaRange = 0;
 			fade = true;
 			loaded = true;

@@ -4,14 +4,12 @@
     "mvc": "1.1",
     "name": "dad603dc-43f3-4dfa-9107-0f0ecafd9977",
     "children": [
-        "b5d2b4d3-bbad-450d-a720-c7a155655ba0",
-        "394a62a8-62bf-4a29-98c6-dd6494bdda55",
-        "2844a84a-ed8f-4e7e-bc00-7deb6ec5340f",
-        "a39ac1ab-d057-46cc-b776-e1987d03ae78",
-        "beebfec8-1909-409d-9bbc-f779e40d272e",
-        "31fe222f-4b33-4c8c-99f7-a68e17f0cae8",
-        "a3c2be3b-c949-4b03-939b-70c3fe798da0",
-        "1a0f5024-06a0-4b1c-ba4e-177f097d9345"
+        "ed31b7c9-cfa1-4b70-8cab-3ecae95f8858",
+        "4af7e9e2-1ebb-4e39-a7fc-5d7183319232",
+        "4d305b1f-eec2-4756-994a-eacb51c83e58",
+        "37d53628-a752-47ac-a20b-559ee25e01be",
+        "a2f5b717-0c54-483f-9a86-1360b6a0ef66",
+        "d92a2ef6-8870-423a-bb00-bf1cebe00696"
     ],
     "filterType": "GMSprite",
     "folderName": "Enemies",
