@@ -1,8 +1,8 @@
 /// @description Insert description here
 // You can write your code in this editor
-draw_text(300,100, "WASD or Arrow Keys = Movement");
-draw_text(300,200, "Shift = Sprint");
-draw_text(300,300, "E = Interact");
-draw_text(300,400, "Ctrl+S = Save");
-draw_text(300,500, "Ctrl+L = Load");
-draw_text(300,600, "Esc = Main Menu");
+draw_text_transformed(100,75, "WASD or Arrow Keys = Movement", 2, 2, 0);
+draw_text_transformed(100,175, "Shift = Sprint", 2, 2, 0);
+draw_text_transformed(100,275, "E = Interact", 2, 2, 0);
+draw_text_transformed(100,375, "Ctrl+S = Save", 2, 2, 0);
+draw_text_transformed(100,475, "Ctrl+L = Load", 2, 2, 0);
+draw_text_transformed(100,575, "Esc = Main Menu", 2, 2, 0);
