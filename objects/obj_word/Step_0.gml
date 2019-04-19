@@ -4,3 +4,11 @@ if(word == "-")
 {
 	instance_destroy();
 }
+if(global.freeze)
+{
+	speed = 0;	
+}
+else
+{
+	speed = wordSpeed;	
+}
