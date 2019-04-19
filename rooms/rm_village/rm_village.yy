@@ -181,7 +181,7 @@
                     2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2
                 ]
             },
-            "tilesetId": "5eae08d1-d1f0-42c7-b702-b7dfbe4757b2",
+            "tilesetId": "4bdcb104-feb2-416c-981f-818b61518c24",
             "userdefined_depth": false,
             "visible": true,
             "x": 0,
