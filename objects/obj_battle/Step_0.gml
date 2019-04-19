@@ -50,6 +50,7 @@ if(fadeDone && !lost)
 	}
 	else
 	{
+		global.wordList = 0;
 		global.enemyHealth = 100;
 		global.roomLocation = global.prevRoomLocation;
 		room_goto(global.prevRoomLocation);

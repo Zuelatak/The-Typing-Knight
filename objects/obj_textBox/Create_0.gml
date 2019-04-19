@@ -32,8 +32,12 @@ text_height = string_height("M");
 portrait_index = 0;
 
 text[0] = 0;
+yesorno[0] = 0;
 page = 0;
 name = "name";
 
 text_col = c_black;
 name_text_col = c_black;
+
+yes = false;
+no = false;
