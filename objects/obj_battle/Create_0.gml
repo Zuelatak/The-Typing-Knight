@@ -21,3 +21,6 @@ with(Spawner)
     wordSpawnRate = other.wordSpawnRate;
     wordSpeed = other.wordSpeed;
 }
+
+instance_create_depth(window_get_width()/2 - characterDistance, window_get_height() - characterPlacement, -y, obj_battlePlayer);
+instance_create_depth(window_get_width()/2 - characterDistance, window_get_height() - characterPlacement, -y, global.enemyObject);
