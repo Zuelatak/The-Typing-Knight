@@ -12,14 +12,15 @@ global.playerDirection = spr_playerFS;
 global.enemyDamage = 5;
 global.enemyArmor = 0;
 global.enemyHealth = 100;
-global.enemySprite = spr_knightFS;
+global.enemyObject = obj_battleKnight;
 global.words = 0;
 global.wordList = 0;
 global.wordPointer = 0;
 global.overallDifficulty = 4;
 global.battleDifficulty = 0;
+global.victory = false;
 
 //Mechanics
 global.freeze = false;
 // file_text_open_read until you get a -1 and then save that as the next game file (For multiple save files)
-// Check out file_exists ^
+// Check out file_exists ^ 

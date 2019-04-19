@@ -55,7 +55,6 @@ if (global.playerDirection == spr_playerRW && length == 0)
 {
 	global.playerDirection = spr_playerRS;
 }		
-
 		
 
 

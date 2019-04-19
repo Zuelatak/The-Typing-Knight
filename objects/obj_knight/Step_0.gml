@@ -10,7 +10,7 @@ if(fadeDone)
 {
 	global.prevRoomLocation = global.roomLocation;
 	global.roomLocation = rm_battle;
-	global.enemySprite = spr_knightFS;
+	global.enemyObject = obj_battleKnight;
 	global.enemyArmor = 0;
 	global.enemyDamage = 5;
 	global.battleDifficulty = global.overallDifficulty;
