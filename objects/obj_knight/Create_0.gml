@@ -6,3 +6,4 @@ fade = false;
 fadeDone = false;
 alphaRange = 0;
 buttonCreated = false;
+test[3] = "";

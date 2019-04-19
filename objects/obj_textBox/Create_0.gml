@@ -1,9 +1,6 @@
-instance_destroy();
-
-
 box = spr_dialogueBox
 frame = spr_portraitBox
-portrait = spr_health1
+portrait = spr_characterPortrait
 namebox = spr_playerName
 
 box_width = sprite_get_width(box);
@@ -34,8 +31,7 @@ text_height = string_height("M");
 
 portrait_index = 0;
 
-text[0] = "this is a test string this is a test string this is a test string this is a test string this is a test string this is a test string this is a test string "
-text[1] = "this is the second page";
+text[0] = 0;
 page = 0;
 name = "name";
 
