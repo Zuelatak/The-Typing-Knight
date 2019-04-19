@@ -4,13 +4,15 @@ InRange = ChatRange(InRange);
 
 if(InRange && max(gamepad_button_check(0, gp_face1), keyboard_check_pressed(ord("E")), 0))
 {
+	global.freeze = true;
 	fade = true;
 } 
 if(fadeDone)
 {
 	global.prevRoomLocation = global.roomLocation;
 	global.roomLocation = rm_battle;
-	global.enemyObject = obj_battleKnight;
+	global.enemyBattleObject = obj_battleKnight;
+	global.enemyObject = obj_knight;
 	global.enemyArmor = 0;
 	global.enemyDamage = 5;
 	global.battleDifficulty = global.overallDifficulty;

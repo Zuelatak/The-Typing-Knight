@@ -6,7 +6,10 @@ y = global.playerLocationY;
 sprite_index = global.playerDirection;
 x=clamp(x, 0, room_width);
 y=clamp(y, 0, room_height);
-MoveState()
+if(!global.freeze)
+{
+	MoveState();
+}
 
 //left
 if (dir == 180 && length != 0)
@@ -56,7 +59,15 @@ if (global.playerDirection == spr_playerRW && length == 0)
 	global.playerDirection = spr_playerRS;
 }		
 		
-
+if(global.victory)
+{
+	objID = instance_nearest(x,y, global.enemyObject);
+	if(objID != noone)
+	{
+		instance_destroy(objID);	
+	}
+	global.victory = false;
+}
 
 
 

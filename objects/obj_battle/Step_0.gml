@@ -33,6 +33,10 @@ if(global.enemyHealth <= 0 && fade == false)
 	global.freeze = true;
 	alphaRange = 0;
 	fade = true;
+	if(global.enemyObject != obj_battleKnight)
+	{
+		global.victory = true;	
+	}
 }
 if(fadeDone && !lost)
 {

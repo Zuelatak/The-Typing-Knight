@@ -26,7 +26,9 @@ if(file != -1)
 	file_text_readln(file);
 	global.enemyHealth = real(file_text_read_string(file));
 	file_text_readln(file);
-	global.enemySprite = real(file_text_read_string(file));
+	global.enemyBattleObject = real(file_text_read_string(file));
+	file_text_readln(file);
+	global.enemyObject = real(file_text_read_string(file));
 	file_text_readln(file);
 	global.overallDifficulty = real(file_text_read_string(file));
 	file_text_readln(file);

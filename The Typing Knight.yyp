@@ -191,6 +191,14 @@
             }
         },
         {
+            "Key": "1a0f5024-06a0-4b1c-ba4e-177f097d9345",
+            "Value": {
+                "id": "eb630d05-794f-483c-905a-c2026658063a",
+                "resourcePath": "sprites\\spr_battleWolf\\spr_battleWolf.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "1a318fbd-6434-4bec-b830-b432ae26223f",
             "Value": {
                 "id": "d91ace34-de27-42db-b715-b9f89a2b1563",
@@ -204,14 +212,6 @@
                 "id": "d67d06fc-3d11-4f91-89f4-179348612427",
                 "resourcePath": "views\\1c8b8fb3-140c-4089-9035-db974404598d.yy",
                 "resourceType": "GMFolder"
-            }
-        },
-        {
-            "Key": "1c9b411c-74a1-4b32-ae6c-4b97187fd750",
-            "Value": {
-                "id": "2bda936b-7056-4047-b282-83265d2dede1",
-                "resourcePath": "sprites\\spr_2\\spr_2.yy",
-                "resourceType": "GMSprite"
             }
         },
         {
@@ -354,7 +354,7 @@
             "Key": "31fe222f-4b33-4c8c-99f7-a68e17f0cae8",
             "Value": {
                 "id": "4afb0ca3-06c6-465f-98d6-9de9fdbf355b",
-                "resourcePath": "sprites\\spr_wolf\\spr_wolf.yy",
+                "resourcePath": "sprites\\spr_wolfMoving\\spr_wolfMoving.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -535,6 +535,14 @@
             }
         },
         {
+            "Key": "4f13d0df-3b25-408e-94b5-e17bfa9ff30c",
+            "Value": {
+                "id": "542115b3-6d03-4f0c-b177-d28a69a50bcd",
+                "resourcePath": "sprites\\spr_battlePlayer\\spr_battlePlayer.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "507d7855-fea7-4947-a28a-d7113032838b",
             "Value": {
                 "id": "f5afc4c0-c089-4514-a33d-d7856ad9c927",
@@ -556,6 +564,14 @@
                 "id": "7a050371-0f2b-4f45-86d7-a7d311b3fb29",
                 "resourcePath": "scripts\\Globals\\Globals.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "51dc3052-e3e9-4283-a024-668b7f91e3ea",
+            "Value": {
+                "id": "2b42065b-a6f9-48d1-9fc1-c042373d0553",
+                "resourcePath": "sprites\\spr_battleKnight\\spr_battleKnight.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -842,7 +858,7 @@
             "Key": "82005ea5-3cf2-4656-8213-3418b454c120",
             "Value": {
                 "id": "865ae30e-e56f-4fb8-a76e-6ebe647954d9",
-                "resourcePath": "sprites\\spr_1\\spr_1.yy",
+                "resourcePath": "sprites\\spr_countdown\\spr_countdown.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -963,6 +979,14 @@
             "Value": {
                 "id": "5624e391-bbfa-42a3-bc8e-b963f29535c7",
                 "resourcePath": "sprites\\spr_skeleton\\spr_skeleton.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "a3c2be3b-c949-4b03-939b-70c3fe798da0",
+            "Value": {
+                "id": "87a2f4e2-290f-467f-8cf1-bc93c9f2cad9",
+                "resourcePath": "sprites\\spr_wolfStill\\spr_wolfStill.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -1507,14 +1531,6 @@
             "Value": {
                 "id": "931b2d0f-c9fb-4bc3-a066-2ac0c5f05ad8",
                 "resourcePath": "sprites\\spr_knightFS\\spr_knightFS.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
-            "Key": "f806186d-167e-41b2-9cac-1c0e4694179d",
-            "Value": {
-                "id": "4f068f8b-88b5-403a-9e6b-fa556547c044",
-                "resourcePath": "sprites\\spr_3\\spr_3.yy",
                 "resourceType": "GMSprite"
             }
         },

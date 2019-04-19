@@ -22,5 +22,9 @@ with(Spawner)
     wordSpeed = other.wordSpeed;
 }
 
-instance_create_depth(window_get_width()/2 - characterDistance, window_get_height() - characterPlacement, -y, obj_battlePlayer);
-instance_create_depth(window_get_width()/2 - characterDistance, window_get_height() - characterPlacement, -y, global.enemyObject);
+var player = instance_create_depth(window_get_width()/2 - characterDistance, window_get_height() - 5, -15000, obj_battlePlayer);
+var enemy = instance_create_depth(window_get_width()/2 + characterDistance, window_get_height() - 5, -15000, global.enemyBattleObject);
+player.image_xscale = player.image_xscale*3;
+enemy.image_xscale = enemy.image_xscale*3;
+player.image_yscale = player.image_yscale*3;
+enemy.image_yscale = enemy.image_yscale*3;

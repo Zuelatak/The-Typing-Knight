@@ -1,11 +1,12 @@
 /// @description Insert description here
 // You can write your code in this editor
+depth = -y;
 if(fadeDone)
 {
-	global.freeze = false
 	global.prevRoomLocation = global.roomLocation;
 	global.roomLocation = rm_battle;
-	global.enemyObject = obj_battleWolf;
+	global.enemyBattleObject = obj_battleWolf;
+	global.enemyObject = obj_wolf;
 	global.enemyArmor = 0;
 	global.enemyDamage = 5;
 	global.battleDifficulty = global.overallDifficulty

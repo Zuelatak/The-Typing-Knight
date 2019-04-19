@@ -12,7 +12,7 @@ draw_text(window_get_width()/2 + characterDistance, window_get_height() - charac
 
 
 //draw_sprite_stretched(spr_playerFW, 0, window_get_width()/2 - characterDistance, window_get_height() - characterPlacement, 70, 100);
-//draw_sprite_stretched(global.enemySprite, 0, window_get_width()/2 + characterDistance, window_get_height() - characterPlacement, 70, 100);
+//draw_sprite_stretched(global.enemyObject.sprite_index, 0, window_get_width()/2 + characterDistance, window_get_height() - characterPlacement, 70, 100);
 
 if(alphaRange > 0)
 {
@@ -41,9 +41,18 @@ if(alphaRange > 1.9)
 }
 if(countdown && alphaRange <= 0)
 {
-	draw_text_transformed(window_get_width()/2, window_get_height()/2, string(counter), 10, 10, 0);
-	draw_set_halign(fa_center);
-	draw_set_valign(fa_center);
+	if(counter == 3)
+	{
+		draw_sprite(spr_countdown, 2, window_get_width()/2, window_get_height()/2);
+	}
+	else if(counter == 2)
+	{
+		draw_sprite(spr_countdown, 1, window_get_width()/2, window_get_height()/2);
+	}
+	else if(counter == 1)
+	{
+		draw_sprite(spr_countdown, 3, window_get_width()/2, window_get_height()/2);
+	}
 	if(doOnce)
 	{
 		alarm[0] = room_speed;
