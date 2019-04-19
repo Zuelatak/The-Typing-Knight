@@ -21,18 +21,22 @@ if(keyboard_check(vk_escape))
 		room_goto(rm_title);
 }
 
-if(global.playerHealth <= 0)
+if(global.playerHealth <= 0 && fade == false)
 {
-	global.words = 0;
-	room_goto(rm_title);	
+	global.freeze = true;
+	alphaRange = 0;
+	fade = true;
+	lost = true;
 }
 if(global.enemyHealth <= 0 && fade == false)
 {
+	global.freeze = true;
 	alphaRange = 0;
 	fade = true;
 }
-if(fadeDone)
+if(fadeDone && !lost)
 {
+	global.freeze = false;
 	global.words = 0;
 	if(loaded)
 	{
@@ -45,4 +49,15 @@ if(fadeDone)
 		global.roomLocation = global.prevRoomLocation;
 		room_goto(global.prevRoomLocation);
 	}
+}
+else if(gameOver)
+{
+	global.freeze = false;
+	global.words = 0;
+	room_goto(rm_title);	
+}
+if(counter == 0 && countdown)
+{
+	countdown = false;
+	global.freeze = false;
 }
