@@ -7,3 +7,4 @@ fadeDone = false;
 alphaRange = 0;
 buttonCreated = false;
 textbox = 0;
+textboxCreated = false;
