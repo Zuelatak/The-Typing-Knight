@@ -20,6 +20,31 @@ if(keyboard_check(vk_escape))
 }
 if(fadeDone)
 {
+	global.freeze = true;
 	Load()
 	room_goto(global.roomLocation);
+}
+j = 0;
+for(i = 0; i < array_length_1d(global.forestEnemies); i++)
+{
+	if(instance_exists(global.forestEnemies[i]))
+	{
+		if(global.forestEnemies[i].sprite_index == spr_wolfStill || global.forestEnemies[i].sprite_index == spr_wolfMoving)
+		{
+			global.forestCurrentList[j] = obj_wolf;
+		}
+		else
+		{
+			global.forestCurrentList[j] = obj_goblin;
+		}
+		global.forestCurrentList[j+1] = global.forestEnemies[i].x;
+		global.forestCurrentList[j+2] = global.forestEnemies[i].y;
+	}
+	else
+	{
+	global.forestCurrentList[j] = 0;
+	global.forestCurrentList[j+1] = 0;
+	global.forestCurrentList[j+2] = 0;
+	}
+	j += 3;
 }

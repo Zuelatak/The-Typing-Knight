@@ -31,6 +31,18 @@ if(global.playerHealth <= 0 && fade == false)
 }
 if(global.enemyHealth <= 0 && fade == false)
 {
+	if(global.prevRoomLocation == rm_forest)
+	{
+		global.forestLoadCurrent = true;
+	}
+	else if(global.prevRoomLocation == rm_cave)
+	{
+		global.caveLoadCurrent = true;
+	}
+	else if(global.prevRoomLocation == rm_ruins)
+	{
+		global.ruinLoadCurrent = true;
+	}
 	global.freeze = true;
 	alphaRange = 0;
 	fade = true;

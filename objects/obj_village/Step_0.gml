@@ -21,6 +21,7 @@ if(keyboard_check(vk_escape))
 }
 if(fadeDone)
 {
+	global.freeze = true;
 	Load();
 	room_goto(global.roomLocation);
 }

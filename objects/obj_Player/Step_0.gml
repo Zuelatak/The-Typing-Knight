@@ -4,8 +4,8 @@ depth = -y;
 x = global.playerLocationX;
 y = global.playerLocationY;
 sprite_index = global.playerDirection;
-x=clamp(x, 0, room_width);
-y=clamp(y, 0, room_height);
+x=clamp(x, 5, room_width);
+y=clamp(y, 5, room_height);
 if(!global.freeze)
 {
 	MoveState();
@@ -68,6 +68,7 @@ if(global.victory)
 	}
 	global.victory = false;
 }
+
 
 
 

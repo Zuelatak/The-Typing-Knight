@@ -3,3 +3,4 @@
 fade = false;
 fadeDone = false;
 alphaRange = 1;
+frozen = true;

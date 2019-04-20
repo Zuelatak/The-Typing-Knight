@@ -18,7 +18,82 @@ if(file != -1)
 	file_text_readln(file);
 	global.playerDirection = real(file_text_read_string(file));
 	file_text_readln(file);
-
+	i = 0;
+	//Forest
+	while(true)
+	{
+		var temp = file_text_read_string(file);
+		file_text_readln(file);
+		if(temp == "-ForestEnemies-")
+		{
+			break;
+		}
+		global.forestEnemyList[i] = real(temp);
+		posX = real(file_text_read_string(file));
+		file_text_readln(file);
+		i++;
+		global.forestEnemyList[i] = posX;
+		posY = real(file_text_read_string(file));
+		file_text_readln(file);
+		i++;
+		global.forestEnemyList[i] = posY;
+		i++;
+	}
+	if(i != 0)
+	{
+		global.forestEnemiesLoaded = true;
+	}
+	
+	//Cave
+	while(true)
+	{
+		var temp = file_text_read_string(file);
+		file_text_readln(file);
+		if(temp == "-CaveEnemies-")
+		{
+			break;
+		}
+		global.caveEnemyList[i] = real(temp);
+		posX = real(file_text_read_string(file));
+		file_text_readln(file);
+		i++;
+		global.caveEnemyList[i] = posX;
+		posY = real(file_text_read_string(file));
+		file_text_readln(file);
+		i++;
+		global.caveEnemyList[i] = posY;
+		i++;
+	}
+	if(i != 0)
+	{
+		global.caveEnemiesLoaded = true;
+	}
+		
+	//Ruin
+	while(true)
+	{
+		var temp = file_text_read_string(file);
+		file_text_readln(file);
+		if(temp == "-RuinEnemies-")
+		{
+			break;
+		}
+		global.ruinEnemyList[i] = real(temp);
+		posX = real(file_text_read_string(file));
+		file_text_readln(file);
+		i++;
+		global.ruinEnemyList[i] = posX;
+		posY = real(file_text_read_string(file));
+		file_text_readln(file);
+		i++;
+		global.ruinEnemyList[i] = posY;
+		i++;
+	}
+	if(i != 0)
+	{
+		global.ruinEnemiesLoaded = true;
+	}
+	
 	//Enemy
 	global.enemyDamage = real(file_text_read_string(file));
 	file_text_readln(file);
