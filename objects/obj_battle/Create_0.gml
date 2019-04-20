@@ -28,3 +28,5 @@ player.image_xscale = player.image_xscale*3;
 enemy.image_xscale = enemy.image_xscale*3;
 player.image_yscale = player.image_yscale*3;
 enemy.image_yscale = enemy.image_yscale*3;
+
+audio_play_sound(music_battle, 50, true)

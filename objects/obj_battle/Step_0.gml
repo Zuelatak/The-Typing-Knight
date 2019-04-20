@@ -41,6 +41,7 @@ if(global.enemyHealth <= 0 && fade == false)
 }
 if(fadeDone && !lost)
 {
+	audio_stop_sound(music_battle);
 	global.freeze = false;
 	global.words = 0;
 	if(loaded)
@@ -58,6 +59,7 @@ if(fadeDone && !lost)
 }
 else if(gameOver)
 {
+	audio_stop_sound(music_battle);
 	global.freeze = false;
 	global.words = 0;
 	room_goto(rm_title);	
