@@ -28,6 +28,11 @@ if(global.playerHealth <= 0 && fade == false)
 	alphaRange = 0;
 	fade = true;
 	lost = true;
+	if(global.enemyBattleObject == obj_battleKnight)
+	{
+		global.playerHealth = 1;
+		lost = false;		
+	}
 }
 if(global.enemyHealth <= 0 && fade == false)
 {
@@ -46,7 +51,7 @@ if(global.enemyHealth <= 0 && fade == false)
 	global.freeze = true;
 	alphaRange = 0;
 	fade = true;
-	if(global.enemyObject != obj_battleKnight)
+	if(global.enemyBattleObject != obj_battleKnight)
 	{
 		global.victory = true;	
 	}

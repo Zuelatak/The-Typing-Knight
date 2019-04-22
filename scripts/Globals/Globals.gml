@@ -17,7 +17,7 @@ global.enemyObject = obj_knight;
 global.words = 0;
 global.wordList = 0;
 global.wordPointer = 0;
-global.overallDifficulty = 7;
+global.overallDifficulty = 5;
 global.battleDifficulty = 0;
 global.victory = false;
 
