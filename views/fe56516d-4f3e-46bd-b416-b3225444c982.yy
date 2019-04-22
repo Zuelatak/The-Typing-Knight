@@ -10,7 +10,8 @@
         "6479eea9-ad35-4c7c-b27c-6c13e847819b",
         "6831d3ca-1fb5-4bfe-81bb-70320ea763cc",
         "a346f40a-8554-4c73-b20f-8f8a4bfe2ff1",
-        "2b00045e-3e13-4007-ad07-e0f441726fee"
+        "2b00045e-3e13-4007-ad07-e0f441726fee",
+        "6d545e27-4817-43b7-bcf0-691253cf8c93"
     ],
     "filterType": "GMSprite",
     "folderName": "groundTiles",
