@@ -4,7 +4,16 @@
     "mvc": "1.0",
     "name": "obj_pine",
     "eventList": [
-        
+        {
+            "id": "f53b4034-f7b4-4616-af1b-e491b9ae8ce8",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 0,
+            "m_owner": "20715268-4a3d-4f4a-afef-90305a63a0fc"
+        }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
