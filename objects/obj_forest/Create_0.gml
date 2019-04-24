@@ -33,6 +33,8 @@ else if(global.forestEnemiesLoaded)
 else
 {
 	global.forestEnemyPointer = 0;
-	//global.forestEnemies[0] = instance_create_depth(107, 306, -306, obj_wolf);
-	//global.forestEnemies[6] = instance_create_depth(553, 390, -360, obj_goblin);	
+	global.forestEnemies[0] = instance_create_depth(383, 124, -124, obj_wolf);
+	global.forestEnemies[0] = instance_create_depth(165, 307, -307, obj_wolf);
+	global.forestEnemies[6] = instance_create_depth(311, 211, -211, obj_goblin);	
+	global.forestEnemies[6] = instance_create_depth(112, 174, -174, obj_goblin);
 }

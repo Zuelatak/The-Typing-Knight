@@ -1,6 +1,6 @@
 // Player
-global.playerLocationX = 200;
-global.playerLocationY = 100;
+global.playerLocationX = 114;
+global.playerLocationY = 48;
 global.playerHealth = 100;
 global.playerArmor = 0;
 global.playerDamage = 5;
