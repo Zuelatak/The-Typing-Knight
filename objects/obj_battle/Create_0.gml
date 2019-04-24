@@ -10,6 +10,8 @@ global.freeze = true;
 doOnce = true;
 playerSlash = 0;
 enemySlash = 0;
+saved = false;
+saveTime = 0;
 
 var Spawner = instance_create_depth(room_width, wordSpawnerYAxis, wordSpawnerYAxis, obj_wordSpawner);
 

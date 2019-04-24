@@ -4,6 +4,8 @@ fade = false;
 fadeDone = false;
 alphaRange = 1;
 frozen = true;
+saved = false;
+saveTime = 0;
 global.forestEnemies = 0;
 if(global.forestLoadCurrent)
 {

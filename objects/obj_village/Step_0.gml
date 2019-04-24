@@ -5,6 +5,7 @@ if(keyboard_check(vk_control))
 {
 	if(keyboard_check_pressed(ord("S")))
 	{
+		saved = true;
 		Save();
 	}
 	else if(keyboard_check_pressed(ord("L")))

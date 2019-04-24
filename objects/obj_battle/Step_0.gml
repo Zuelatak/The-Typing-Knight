@@ -4,6 +4,7 @@ if(keyboard_check(vk_control))
 {
 	if(keyboard_check_pressed(ord("S")))
 	{
+		saved = true;
 		Save();
 	}
 	else if(keyboard_check_pressed(ord("L")))
@@ -19,6 +20,7 @@ if(keyboard_check(vk_control))
 }
 if(keyboard_check(vk_escape))
 {
+		audio_stop_sound(music_battle);
 		room_goto(rm_title);
 }
 
