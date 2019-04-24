@@ -5,6 +5,8 @@ wordSpawnRate = 0;
 wordSpawnRange = 0;
 wordCount = 0;
 wordPointer = 0;
+global.playerHit = false;
+global.enemyHit = false;
 global.wordList = 0;
 global.wordPointer = 0;
 

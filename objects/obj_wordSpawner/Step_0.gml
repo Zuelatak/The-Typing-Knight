@@ -9,6 +9,7 @@ if(!global.freeze)
 			global.wordList[wordPointer].word = "-";
 			wordPointer ++;
 			global.playerHealth = global.playerHealth - global.enemyDamage*2 + global.playerArmor;
+			global.playerHit = true;
 			audio_play_sound(sound_slash, 10, false);
 		}
 	
@@ -21,6 +22,7 @@ if(!global.freeze)
 				global.wordList[wordPointer].word = "-";
 				wordPointer ++;
 				global.enemyHealth = global.enemyHealth - global.playerDamage + global.enemyArmor;
+				global.enemyHit = true;
 				audio_play_sound(sound_slash, 10, false);
 			}
 			else
@@ -30,6 +32,7 @@ if(!global.freeze)
 		}
 		else if keyboard_check_pressed(vk_anykey)
 		{
+			global.playerHit = true;
 			global.playerHealth = global.playerHealth - global.enemyDamage + global.playerArmor;
 			audio_play_sound(sound_slash, 10, false);
 		}

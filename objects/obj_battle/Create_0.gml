@@ -8,12 +8,10 @@ countdown = true;
 counter = 3;
 global.freeze = true;
 doOnce = true;
+playerSlash = 0;
+enemySlash = 0;
 
 var Spawner = instance_create_depth(room_width, wordSpawnerYAxis, wordSpawnerYAxis, obj_wordSpawner);
-
-//var wordSpawnRang = wordSpawnRange;
-//var wordSpawnRat = wordSpawnRate;
-//var wordSpee = wordSpeed;
 
 with(Spawner)
 {

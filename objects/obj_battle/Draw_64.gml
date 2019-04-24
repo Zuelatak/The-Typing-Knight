@@ -10,7 +10,26 @@ draw_set_valign(fa_center);
 draw_text(window_get_width()/2 - characterDistance, window_get_height() - characterPlacement - 30, "HP: " + string(global.playerHealth) + "/100");
 draw_text(window_get_width()/2 + characterDistance, window_get_height() - characterPlacement - 30, "HP: " + string(global.enemyHealth) + "/100");
 
-
+if(global.playerHit)
+{
+	draw_sprite(spr_slash, playerSlash, window_get_width()/2 - characterDistance, window_get_height() - 5);
+	playerSlash++;
+	if(playerSlash == 5)
+	{	
+		playerSlash = 0;
+		global.playerHit = false;
+	}
+}
+if(global.enemyHit)
+{
+	draw_sprite(spr_slash, enemySlash, window_get_width()/2 + characterDistance, window_get_height() - 5);
+	enemySlash++;
+	if(enemySlash == 5)
+	{	
+		enemySlash = 0;
+		global.enemyHit = false;
+	}
+}
 //draw_sprite_stretched(spr_playerFW, 0, window_get_width()/2 - characterDistance, window_get_height() - characterPlacement, 70, 100);
 //draw_sprite_stretched(global.enemyObject.sprite_index, 0, window_get_width()/2 + characterDistance, window_get_height() - characterPlacement, 70, 100);
 
