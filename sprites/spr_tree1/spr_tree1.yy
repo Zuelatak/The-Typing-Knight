@@ -9,7 +9,7 @@
     "bbox_bottom": 88,
     "bbox_left": 0,
     "bbox_right": 53,
-    "bbox_top": 36,
+    "bbox_top": 40,
     "bboxmode": 2,
     "colkind": 0,
     "coltolerance": 0,
@@ -72,7 +72,7 @@
             "visible": true
         }
     ],
-    "origin": 4,
+    "origin": 7,
     "originLocked": false,
     "playbackSpeed": 15,
     "playbackSpeedType": 0,
@@ -84,5 +84,5 @@
     "type": 0,
     "width": 54,
     "xorig": 27,
-    "yorig": 29
+    "yorig": 58
 }

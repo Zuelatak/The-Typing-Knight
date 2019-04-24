@@ -4,7 +4,16 @@
     "mvc": "1.0",
     "name": "obj_barrel",
     "eventList": [
-        
+        {
+            "id": "66fa5b46-5583-494d-a356-9cf3543eafa3",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 0,
+            "m_owner": "caaf7191-9ca9-4a77-bd91-7cdb2cdf0627"
+        }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,

@@ -4,7 +4,16 @@
     "mvc": "1.0",
     "name": "obj_house2",
     "eventList": [
-        
+        {
+            "id": "0ab3d053-b210-48dc-8de0-0cce0de8f361",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 0,
+            "m_owner": "b5765708-3e00-4301-9e0e-2e71024709fa"
+        }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,

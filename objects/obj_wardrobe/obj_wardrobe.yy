@@ -4,7 +4,16 @@
     "mvc": "1.0",
     "name": "obj_wardrobe",
     "eventList": [
-        
+        {
+            "id": "d265a8a8-c7da-4dfe-b505-5c85658d3fa0",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 0,
+            "m_owner": "a03de673-f60a-49c3-987c-301e3bf50851"
+        }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,

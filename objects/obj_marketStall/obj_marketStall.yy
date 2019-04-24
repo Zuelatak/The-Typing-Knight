@@ -4,7 +4,16 @@
     "mvc": "1.0",
     "name": "obj_marketStall",
     "eventList": [
-        
+        {
+            "id": "f78d2f29-7bd0-4a5d-bdd6-4fd646c1902c",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 0,
+            "m_owner": "d61e1521-5eb6-48bf-a773-efc10e08bd96"
+        }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,

@@ -4,7 +4,16 @@
     "mvc": "1.0",
     "name": "obj_bed",
     "eventList": [
-        
+        {
+            "id": "b2d85f06-7cf8-46c3-87fc-95e1fab4d894",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 0,
+            "m_owner": "5355af39-1f8e-413d-bf9a-94714598a80a"
+        }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,

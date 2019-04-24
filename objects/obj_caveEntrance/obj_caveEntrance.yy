@@ -4,7 +4,16 @@
     "mvc": "1.0",
     "name": "obj_caveEntrance",
     "eventList": [
-        
+        {
+            "id": "f82ee715-208f-48e6-94dc-6a3662bf5da7",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 0,
+            "m_owner": "26623043-728b-4e10-b65c-ce91ae18dd1d"
+        }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,

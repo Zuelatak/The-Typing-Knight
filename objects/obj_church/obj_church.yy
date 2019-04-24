@@ -4,7 +4,16 @@
     "mvc": "1.0",
     "name": "obj_church",
     "eventList": [
-        
+        {
+            "id": "8768b642-5b2f-4bc8-a3a9-9f3344707143",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 0,
+            "m_owner": "f35b16fb-d98a-4316-a064-a541fac55888"
+        }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
