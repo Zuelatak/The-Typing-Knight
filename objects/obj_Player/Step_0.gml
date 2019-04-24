@@ -6,9 +6,13 @@ y = global.playerLocationY;
 sprite_index = global.playerDirection;
 x=clamp(x, 5, room_width);
 y=clamp(y, 5, room_height);
-if(!global.freeze)
+if(!global.freeze && !keyboard_check(vk_control))
 {
 	MoveState();
+}
+else
+{
+	length = 0;	
 }
 
 //left
