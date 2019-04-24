@@ -13,7 +13,6 @@
         "ff30df7d-cc61-4f44-8975-3664d8845968",
         "661d04b3-231b-45d1-9921-2e80ffe4e984",
         "17420572-4bca-450c-85a5-7976f6f000bc",
-        "cf49f633-95ab-4d99-a41d-aea0bd460dcd",
         "88be0c0b-ab85-47a8-9242-bb320c5174cc",
         "a329debf-93e8-40ef-8014-e44bed97d1c7",
         "d228c313-4b3b-4838-88af-1706de639a20",
@@ -21,7 +20,8 @@
         "8ac03ca6-78c4-4998-aa06-afdd7ef6b702",
         "cf542670-e991-4c6f-9199-97eb7665cb10",
         "7d7f2b52-bdbc-4112-8627-6b133fea6015",
-        "61ebc422-629d-43b7-b719-645d7af8412b"
+        "61ebc422-629d-43b7-b719-645d7af8412b",
+        "b8089681-40d1-45fa-80ce-922143e94e05"
     ],
     "filterType": "GMSprite",
     "folderName": "environmentSprites",
