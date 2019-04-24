@@ -33,11 +33,6 @@ else if(global.ruinEnemiesLoaded)
 else
 {
 	global.ruinEnemyPointer = 0;
-	global.ruinEnemies[0] = instance_create_depth(760, 308, -308, obj_lich);
-	global.ruinEnemies[1] = instance_create_depth(600, 108, -108, obj_skeleton);
-	global.ruinEnemies[2] = instance_create_depth(341, 56, -56, obj_skeleton);
-	global.ruinEnemies[3] = instance_create_depth(126, 431, -431, obj_skeleton);
-	global.ruinEnemies[4] = instance_create_depth(424, 423, -423, obj_skeleton);
-	global.ruinEnemies[5] = instance_create_depth(330, 270, -270, obj_skeleton);
-	global.ruinEnemies[6] = instance_create_depth(614, 382, -362, obj_skeleton);
+	//global.ruinEnemies[0] = instance_create_depth(760, 308, -308, obj_lich);
+	//global.ruinEnemies[6] = instance_create_depth(614, 382, -362, obj_skeleton);
 }
