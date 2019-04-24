@@ -93,6 +93,20 @@
             "value": "0",
             "varName": "playerY",
             "varType": 0
+        },
+        {
+            "id": "f53aca1a-fb26-4d1f-b955-30a3776f0452",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "spr_playerFS",
+            "varName": "playerDirection",
+            "varType": 5
         }
     ],
     "solid": false,

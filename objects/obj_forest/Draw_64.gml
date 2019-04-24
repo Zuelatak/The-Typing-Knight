@@ -25,7 +25,7 @@ if(saved)
 	draw_set_valign(fa_center);
 	draw_text_transformed(window_get_width()/2, window_get_height()/2, "Saved", 3, 3, 0);
 	saveTime++;
-	if(saveTime == 8)
+	if(saveTime == 12)
 	{
 		saveTime = 0;
 		saved = false;	

@@ -12,5 +12,6 @@ if(alphaRange > 1.3)
 	global.roomLocation = goesTo;
 	global.playerLocationX = playerX;
 	global.playerLocationY = playerY;
+	global.playerDirection = playerDirection;
 	room_goto(goesTo);	
 }
