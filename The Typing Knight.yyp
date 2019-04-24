@@ -1602,7 +1602,7 @@
             "Key": "b57cd1fe-947f-479c-b7e3-a08a6f0e1c60",
             "Value": {
                 "id": "df73c140-bf1c-43e1-8569-50ea53dbaa0e",
-                "resourcePath": "sprites\\spr_trigger\\spr_trigger.yy",
+                "resourcePath": "sprites\\spr_clear\\spr_clear.yy",
                 "resourceType": "GMSprite"
             }
         },
