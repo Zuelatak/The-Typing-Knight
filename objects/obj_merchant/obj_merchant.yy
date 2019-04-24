@@ -1,10 +1,29 @@
 {
-    "id": "dc2b6532-15d2-4505-91ff-bcd158c8a7d8",
+    "id": "b8a8c9e6-f0d4-4afa-8d81-8fe5d61b4599",
     "modelName": "GMObject",
     "mvc": "1.0",
     "name": "obj_merchant",
     "eventList": [
-        
+        {
+            "id": "6e20355f-86f7-4a23-92c2-38248cb5ceba",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 0,
+            "m_owner": "b8a8c9e6-f0d4-4afa-8d81-8fe5d61b4599"
+        },
+        {
+            "id": "d017d35d-4663-42b3-a7df-36cd046f1edf",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 3,
+            "m_owner": "b8a8c9e6-f0d4-4afa-8d81-8fe5d61b4599"
+        }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,

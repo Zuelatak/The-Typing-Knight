@@ -1,10 +1,29 @@
 {
-    "id": "a017d9e1-b7f9-42be-a8dd-59bf2d592ebd",
+    "id": "f6928be4-5eca-4f9c-b71c-d70fed56136e",
     "modelName": "GMObject",
     "mvc": "1.0",
     "name": "obj_noble",
     "eventList": [
-        
+        {
+            "id": "b0118275-98ed-47c1-a7a8-930419ca4928",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 0,
+            "m_owner": "f6928be4-5eca-4f9c-b71c-d70fed56136e"
+        },
+        {
+            "id": "4b69553f-9f9a-40e9-ad02-25e617f0d52a",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 3,
+            "m_owner": "f6928be4-5eca-4f9c-b71c-d70fed56136e"
+        }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,

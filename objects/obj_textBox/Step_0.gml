@@ -11,6 +11,11 @@ if(keyboard_check_pressed(ord("E")) && !instance_exists(obj_yes))
 		yes = false;
 		no = false;
 	}
+	else
+	{
+		global.freeze = false;
+		instance_destroy();
+	}
 }
 if(instance_exists(obj_yes) && yesButton.pressed == true)
 {

@@ -778,7 +778,7 @@
             "Key": "53cb9f28-c864-4191-8892-5438a3a03d9b",
             "Value": {
                 "id": "fe1c534f-d38f-4cd3-ae52-bf8b2e85e960",
-                "resourcePath": "sprites\\spr_royalPortrait\\spr_royalPortrait.yy",
+                "resourcePath": "sprites\\spr_noblePortrait\\spr_noblePortrait.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -1391,14 +1391,6 @@
             }
         },
         {
-            "Key": "a017d9e1-b7f9-42be-a8dd-59bf2d592ebd",
-            "Value": {
-                "id": "0e47fcd1-4f9c-4142-b55c-1ea125bf736a",
-                "resourcePath": "objects\\obj_noble\\obj_noble.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
             "Key": "a03de673-f60a-49c3-987c-301e3bf50851",
             "Value": {
                 "id": "5fe7b5bc-4b9f-4d17-b463-4f8160023c26",
@@ -1460,14 +1452,6 @@
                 "id": "f151e25b-16b1-412b-a813-fcbd81b068bc",
                 "resourcePath": "sprites\\spr_dialogueBox\\spr_dialogueBox.yy",
                 "resourceType": "GMSprite"
-            }
-        },
-        {
-            "Key": "a7cd3b8d-5e26-473f-a435-41de8f7aff66",
-            "Value": {
-                "id": "daae7cce-04d4-45ea-aee2-e77d4ac5aa90",
-                "resourcePath": "objects\\obj_blacksmith\\obj_blacksmith.yy",
-                "resourceType": "GMObject"
             }
         },
         {
@@ -1652,6 +1636,14 @@
                 "id": "b4f96cdb-fd07-40e9-89fc-f08139a9c7c8",
                 "resourcePath": "sprites\\sprite101\\sprite101.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "b8a8c9e6-f0d4-4afa-8d81-8fe5d61b4599",
+            "Value": {
+                "id": "6abadddd-7bb8-46d7-94af-626bff7e7a2a",
+                "resourcePath": "objects\\obj_merchant\\obj_merchant.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -1991,10 +1983,10 @@
             }
         },
         {
-            "Key": "dc2b6532-15d2-4505-91ff-bcd158c8a7d8",
+            "Key": "dca5ce43-c12f-46b7-a6fd-4d8cf31fe16d",
             "Value": {
-                "id": "d954a562-e8f2-4fa5-9503-fffca0ca09fc",
-                "resourcePath": "objects\\obj_merchant\\obj_merchant.yy",
+                "id": "66ae9ddb-4720-4f53-8861-e6c7eff953ef",
+                "resourcePath": "objects\\obj_blacksmith\\obj_blacksmith.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -2164,6 +2156,14 @@
                 "id": "5c2dc869-acca-41c6-a4b2-9e89ccce07fd",
                 "resourcePath": "sprites\\spr_\\spr_.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "f6928be4-5eca-4f9c-b71c-d70fed56136e",
+            "Value": {
+                "id": "0fa8e0a1-7101-41bf-9fae-db125e9ee815",
+                "resourcePath": "objects\\obj_noble\\obj_noble.yy",
+                "resourceType": "GMObject"
             }
         },
         {

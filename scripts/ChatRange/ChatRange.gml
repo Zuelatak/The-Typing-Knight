@@ -1,6 +1,6 @@
 if(distance_to_object(obj_player) < 25 && !argument[0])
 {
-	button = instance_create_depth(x, y-((5*sprite_height)/4), -y, obj_interactionButton);
+	button = instance_create_depth(x, y-((5*sprite_height)/4), -15000, obj_interactionButton);
 	return true;   
 }
 else if(distance_to_object(obj_player) > 25 && argument[0])

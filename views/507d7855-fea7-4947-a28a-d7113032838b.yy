@@ -6,9 +6,9 @@
     "children": [
         "f25ab075-b5b1-4a8b-8a1c-cd6c44950723",
         "e149ae28-1126-4c9b-be00-1a3b71398f4d",
-        "a7cd3b8d-5e26-473f-a435-41de8f7aff66",
-        "dc2b6532-15d2-4505-91ff-bcd158c8a7d8",
-        "a017d9e1-b7f9-42be-a8dd-59bf2d592ebd"
+        "dca5ce43-c12f-46b7-a6fd-4d8cf31fe16d",
+        "b8a8c9e6-f0d4-4afa-8d81-8fe5d61b4599",
+        "f6928be4-5eca-4f9c-b71c-d70fed56136e"
     ],
     "filterType": "GMObject",
     "folderName": "NPCs",
