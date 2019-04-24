@@ -1,8 +1,3 @@
-//Music
-global.songList[0] = music_travel;
-global.songList[1] = music_travel2;
-global.currentSong = 0;
-
 // Player
 global.playerLocationX = 114;
 global.playerLocationY = 48;

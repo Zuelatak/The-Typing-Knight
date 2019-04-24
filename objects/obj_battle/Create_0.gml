@@ -12,6 +12,7 @@ playerSlash = 0;
 enemySlash = 0;
 saved = false;
 saveTime = 0;
+audio_stop_sound(global.currentSong);
 
 var Spawner = instance_create_depth(room_width, wordSpawnerYAxis, wordSpawnerYAxis, obj_wordSpawner);
 
