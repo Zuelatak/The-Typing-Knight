@@ -279,6 +279,14 @@
             }
         },
         {
+            "Key": "1bf7b302-8bc5-482f-965a-4e801fb9a3ec",
+            "Value": {
+                "id": "b73524a3-a9a0-46ec-a2a0-245a53fa3b5a",
+                "resourcePath": "rooms\\rm_ruinsBattle\\rm_ruinsBattle.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "1c8b8fb3-140c-4089-9035-db974404598d",
             "Value": {
                 "id": "d67d06fc-3d11-4f91-89f4-179348612427",
@@ -1852,6 +1860,14 @@
                 "id": "7a385e49-8e94-4e2e-a549-28e5e0af9865",
                 "resourcePath": "options\\windows\\options_windows.yy",
                 "resourceType": "GMWindowsOptions"
+            }
+        },
+        {
+            "Key": "ce420167-0874-4596-b990-45c1ad781514",
+            "Value": {
+                "id": "0050140a-5a1e-4478-a871-137aeafa0830",
+                "resourcePath": "rooms\\rm_battleCave\\rm_battleCave.yy",
+                "resourceType": "GMRoom"
             }
         },
         {
