@@ -33,8 +33,8 @@ else if(global.caveEnemiesLoaded)
 else
 {
 	global.caveEnemyPointer = 0;
-	global.caveEnemies[0] = instance_create_depth(171, 94, -94, obj_spider);
-	global.caveEnemies[0] = instance_create_depth(313, 258, -258, obj_spider);
-	global.caveEnemies[5] = instance_create_depth(93, 273, -273, obj_slime);
-	global.caveEnemies[5] = instance_create_depth(312, 116, -116, obj_slime);
+	global.caveEnemies[0] = instance_create_depth(150, 98, -98, obj_spider);
+	global.caveEnemies[1] = instance_create_depth(343, 278, -278, obj_spider);
+	global.caveEnemies[2] = instance_create_depth(93, 273, -273, obj_slime);
+	global.caveEnemies[3] = instance_create_depth(312, 116, -116, obj_slime);
 }

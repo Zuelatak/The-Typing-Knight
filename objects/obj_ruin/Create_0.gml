@@ -34,7 +34,7 @@ else
 {
 	global.ruinEnemyPointer = 0;
 	global.ruinEnemies[0] = instance_create_depth(442, 338, -338, obj_lich);
-	global.ruinEnemies[6] = instance_create_depth(262, 138, -138, obj_skeleton);
-	global.ruinEnemies[6] = instance_create_depth(135, 319, -319, obj_skeleton);
-	global.ruinEnemies[6] = instance_create_depth(290, 248, -248, obj_skeleton);
+	global.ruinEnemies[1] = instance_create_depth(262, 138, -138, obj_skeleton);
+	global.ruinEnemies[2] = instance_create_depth(135, 319, -319, obj_skeleton);
+	global.ruinEnemies[3] = instance_create_depth(290, 248, -248, obj_skeleton);
 }
