@@ -1506,7 +1506,7 @@
             "Key": "ad1a51f5-06d1-4b88-8d36-0fe1fdf99a71",
             "Value": {
                 "id": "676a6422-271a-4555-8c5d-af5b09877770",
-                "resourcePath": "sprites\\spr_characterPortrait\\spr_characterPortrait.yy",
+                "resourcePath": "sprites\\spr_playerPortrait\\spr_playerPortrait.yy",
                 "resourceType": "GMSprite"
             }
         },

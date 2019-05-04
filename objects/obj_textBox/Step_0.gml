@@ -22,10 +22,18 @@ if(instance_exists(obj_yes) && yesButton.pressed == true)
 	yes = true;
 	instance_destroy(yesButton);
 	instance_destroy(noButton);
+	if(page < array_length_1d(text) - 1)
+	{
+		page++;	
+	}
 }
 if(instance_exists(obj_yes) && noButton.pressed == true)
 {
 	no = true;
 	instance_destroy(yesButton);
 	instance_destroy(noButton);
+	if(page < array_length_1d(text) - 1)
+	{
+		page++;	
+	}
 }

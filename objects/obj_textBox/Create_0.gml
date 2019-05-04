@@ -1,6 +1,6 @@
 box = spr_dialogueBox
 frame = spr_portraitBox
-portrait = spr_characterPortrait
+portrait = spr_playerPortrait
 namebox = spr_playerName
 
 box_width = sprite_get_width(box);
