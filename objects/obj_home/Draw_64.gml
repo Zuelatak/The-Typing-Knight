@@ -8,7 +8,6 @@ if(alphaRange > 0)
 if(alphaRange < 0 && frozen)
 {
 	frozen = false;
-	global.freeze = false;
 }
 if(fade)
 {

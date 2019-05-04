@@ -1,4 +1,7 @@
-// Player
+//Quests
+global.endQuest = false;
+
+//Player
 global.playerLocationX = 114;
 global.playerLocationY = 48;
 global.playerHealth = 100;

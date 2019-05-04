@@ -1,6 +1,10 @@
 file = file_text_open_read("\save.txt");
 if(file != -1)
 {
+	//Quests
+	global.endQuest = real(file_text_read_string(file));
+	file_text_readln(file);
+	
 	//Player
 	global.playerLocationX = real(file_text_read_string(file));
 	file_text_readln(file);

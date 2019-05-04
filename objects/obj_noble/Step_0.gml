@@ -2,21 +2,33 @@
 // You can write your code in this editor
 InRange = ChatRange(InRange); 
 
-if(InRange && max(gamepad_button_check(0, gp_face1), keyboard_check_pressed(ord("E")), 0) && !textboxCreated)
+if(InRange && max(gamepad_button_check(0, gp_face1), keyboard_check_pressed(ord("E")), 0) && !textboxCreated && !global.freeze)
 {
 	global.freeze = true;
 	textbox = instance_create_depth(x, y, -y, obj_textBox);
 	textbox.portrait = spr_noblePortrait;
 	textbox.name = "Noble";
-	textbox.text[0] = "So you're ready to become a knight are you? Very well. First I'll need to prove yourself to me. Kill the Lich to the east and you can become a knight of my village. However, I suggest you fight the creature in the forest to the east or the creatures in the cave to the north first.";
-	textbox.text[1] = "You can also get some practice with the other knights in the village. Would you like me to explain how to fight?";
-	textbox.text[2] = "";
-	textbox.yesorno[1] = true;
-	textbox.yesorno[2] = false;
+	if(global.endQuest)
+	{
+		textbox.text[0] = "Wow I'm impressed. I didn't expect you to be back so soon! Well congragulations. From today onwards you will be considered a knight of this village. I hope you serve us well."
+		endgame = true;
+	}
+	else
+	{
+		textbox.text[0] = "So you're ready to become a knight are you? Very well. First I'll need to prove yourself to me. Kill the Lich to the east and you can become a knight of my village. However, I suggest you fight the creature in the forest to the east or the creatures in the cave to the north first.";
+		textbox.text[1] = "You can also get some practice with the other knights in the village. Would you like me to explain how to fight?";
+		textbox.text[2] = "";
+		textbox.yesorno[1] = true;
+		textbox.yesorno[2] = false;
+	}
 	textboxCreated = true;
 } 
 if(!instance_exists(obj_textBox))
 {
+	if(endgame)
+	{
+		fade = true;	
+	}
 	textboxCreated = false;	
 }
 if(textboxCreated && textbox.yes)
@@ -28,4 +40,8 @@ if(textboxCreated && textbox.no)
 {
 	textbox.no = false;
 	textbox.text[2] = "Alright good luck then!";
+}
+if(fadeDone)
+{
+	room_goto(rm_credits);	
 }

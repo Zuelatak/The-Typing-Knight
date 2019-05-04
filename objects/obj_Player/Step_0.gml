@@ -66,14 +66,17 @@ if (global.playerDirection == spr_playerRW && length == 0)
 if(global.victory)
 {
 	objID = instance_nearest(x,y, global.enemyObject);
+	if(global.enemyObject = obj_lich)
+	{
+		global.endQuest = true;	
+	}
 	if(objID != noone)
 	{
 		instance_destroy(objID);	
 	}
+
 	global.victory = false;
 }
-
-
 
 
 	

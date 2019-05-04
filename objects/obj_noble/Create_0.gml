@@ -3,3 +3,7 @@
 CreateCollision();
 InRange = false;
 textboxCreated = false;
+endgame = false;
+alphaRange = 0;
+fade = false;
+fadeDone = false;

@@ -1,4 +1,8 @@
 file = file_text_open_write("\save.txt");
+//Quests
+file_text_write_string(file, global.endQuest);
+file_text_writeln(file);
+
 //Player
 file_text_write_string(file, global.playerLocationX);
 file_text_writeln(file);

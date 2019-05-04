@@ -1063,6 +1063,14 @@
             }
         },
         {
+            "Key": "700261c1-ea4e-453d-9699-a71b49f986ac",
+            "Value": {
+                "id": "b5b24eb8-7e6c-4108-8167-b049543436a8",
+                "resourcePath": "rooms\\rm_credits\\rm_credits.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "710215ec-2d0f-4541-9d44-88340ef2b17d",
             "Value": {
                 "id": "5393e35e-9156-4e71-a6ac-fc23a97437f1",
@@ -1452,6 +1460,14 @@
                 "id": "2c81da69-944e-401b-9b2a-6516f8b662f7",
                 "resourcePath": "sprites\\spr_playerFS\\spr_playerFS.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "a512b3c7-5e40-4e72-baf5-8bd57853da4b",
+            "Value": {
+                "id": "dd1d27fc-a781-435d-8a5d-98fc463ec5ce",
+                "resourcePath": "objects\\obj_credits\\obj_credits.yy",
+                "resourceType": "GMObject"
             }
         },
         {
