@@ -3,7 +3,7 @@ global.playerLocationX = 114;
 global.playerLocationY = 48;
 global.playerHealth = 100;
 global.playerArmor = 0;
-global.playerDamage = 100;
+global.playerDamage = 5;
 global.roomLocation = rm_village;
 global.prevRoomLocation = rm_village;
 global.playerDirection = spr_playerFS;
@@ -17,7 +17,7 @@ global.enemyObject = obj_knight;
 global.words = 0;
 global.wordList = 0;
 global.wordPointer = 0;
-global.overallDifficulty = 5;
+global.overallDifficulty = 4;
 global.battleDifficulty = 0;
 global.victory = false;
 

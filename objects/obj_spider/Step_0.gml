@@ -10,7 +10,7 @@ if(fadeDone)
 	global.enemyArmor = 0;
 	global.enemyDamage = 5;
 	global.battleDifficulty = global.overallDifficulty + 2;
-    room_goto(rm_battle);
+    room_goto(rm_caveBattle);
 }
 if(distance_to_object(obj_player) < 100)
 {

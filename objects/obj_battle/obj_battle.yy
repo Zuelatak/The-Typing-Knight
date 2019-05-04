@@ -72,7 +72,7 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "1",
+            "value": "1.4",
             "varName": "wordSpeed",
             "varType": 0
         },
@@ -86,7 +86,7 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "1",
+            "value": "100",
             "varName": "wordSpawnRate",
             "varType": 0
         },
@@ -100,7 +100,7 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "0",
+            "value": "180",
             "varName": "wordSpawnRange",
             "varType": 0
         },
@@ -128,7 +128,7 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "100",
+            "value": "150",
             "varName": "characterDistance",
             "varType": 0
         },
@@ -142,7 +142,7 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "200",
+            "value": "100",
             "varName": "characterPlacement",
             "varType": 0
         }

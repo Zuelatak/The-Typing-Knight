@@ -111,14 +111,6 @@
             }
         },
         {
-            "Key": "052d2b22-b819-4db3-a373-7a890c956647",
-            "Value": {
-                "id": "b93e7490-b621-4250-a4f5-468f4e840a95",
-                "resourcePath": "objects\\obj_wolf2\\obj_wolf2.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
             "Key": "058b2918-f450-4c64-831a-e49164e79747",
             "Value": {
                 "id": "88dd3099-61b8-495e-80c7-47316f606b90",
@@ -215,14 +207,6 @@
             }
         },
         {
-            "Key": "119bd71f-2449-48c7-9ee1-759e3416038a",
-            "Value": {
-                "id": "e60cf643-536a-48f1-917c-0d9833e7a6b9",
-                "resourcePath": "objects\\obj_wolf1\\obj_wolf1.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
             "Key": "11bc9ed9-34a2-4411-8423-a57aa1ad3c96",
             "Value": {
                 "id": "dba0bbe7-436f-42fc-a3ac-42bd51a001c8",
@@ -316,14 +300,6 @@
                 "id": "74bae0cf-a9d6-4925-a0ec-812f9d0673be",
                 "resourcePath": "sprites\\spr_controlsPressed\\spr_controlsPressed.yy",
                 "resourceType": "GMSprite"
-            }
-        },
-        {
-            "Key": "2167972b-e281-47a3-abb4-8dc91b3223ec",
-            "Value": {
-                "id": "70cc0b18-e910-4b1d-950e-b5cbf49cf06c",
-                "resourcePath": "objects\\obj_wolf3\\obj_wolf3.yy",
-                "resourceType": "GMObject"
             }
         },
         {
@@ -1866,7 +1842,7 @@
             "Key": "ce420167-0874-4596-b990-45c1ad781514",
             "Value": {
                 "id": "0050140a-5a1e-4478-a871-137aeafa0830",
-                "resourcePath": "rooms\\rm_battleCave\\rm_battleCave.yy",
+                "resourcePath": "rooms\\rm_caveBattle\\rm_caveBattle.yy",
                 "resourceType": "GMRoom"
             }
         },
