@@ -30,6 +30,14 @@ if(!global.freeze)
 				global.wordList[wordPointer].word = string_copy(global.wordList[wordPointer].word, 2, string_length(global.wordList[wordPointer].word));
 			}
 		}
+		else if keyboard_check_pressed(vk_backspace)
+		{
+			global.wordList[wordPointer].word = "-";
+			wordPointer ++;
+			global.playerHealth = global.playerHealth - global.enemyDamage*2 + global.playerArmor;
+			global.playerHit = true;
+			audio_play_sound(sound_slash, 10, false);
+		}
 		else if keyboard_check_pressed(vk_anykey)
 		{
 			global.playerHit = true;
