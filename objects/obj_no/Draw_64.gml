@@ -7,7 +7,7 @@ if(position_meeting(window_mouse_get_x(), window_mouse_get_y(), id) && mouse_che
 	sprite = 1;
 }
 
-if(!position_meeting(window_mouse_get_x(), window_mouse_get_y(), id))
+if(!position_meeting(window_mouse_get_x(), window_mouse_get_y(), id) && !keyboard_check(ord("N")))
 {
 	sprite = 0;
 }
