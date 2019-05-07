@@ -1,13 +1,18 @@
-for(i = 1; i < 27; i++)
+file = file_text_open_read("Difficulties.txt");
+for(i = 0; i < 27; i++)
 {
-	file = file_text_open_read(string(i) + ".txt");
 	j = 0;
 	while (!file_text_eof(file))
 	{
-		global.difficulties[i-1, j] = file_text_read_string(file);
+		text = file_text_read_string(file);
 		file_text_readln(file);
+		if(text == "-")
+		{
+			break;	
+		}
+		global.difficulties[i, j] = text;
 		j++;
 	}
-	file_text_close(file);
 } 
+file_text_close(file);
 
